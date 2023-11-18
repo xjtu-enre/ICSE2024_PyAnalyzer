@@ -1,0 +1,212 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_localfunctioncall.test_local_call",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localfunctioncall/test_local_call.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_localfunctioncall.test_local_call.func",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": 18,
+                "startColumn": 4,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def func() -> Any"
+            ],
+            "exported": true,
+            "file": "_localfunctioncall/test_local_call.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_localfunctioncall.test_local_call.func.inner",
+            "category": "Function",
+            "location": {
+                "startLine": 5,
+                "endLine": 16,
+                "startColumn": 8,
+                "endColumn": 21
+            },
+            "signatures": [
+                "def inner() -> Any"
+            ],
+            "exported": true,
+            "file": "_localfunctioncall/test_local_call.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_localfunctioncall.test_local_call.func.inner.inner_inner",
+            "category": "Function",
+            "location": {
+                "startLine": 8,
+                "endLine": 11,
+                "startColumn": 12,
+                "endColumn": 18
+            },
+            "signatures": [
+                "def inner_inner() -> Any"
+            ],
+            "exported": true,
+            "file": "_localfunctioncall/test_local_call.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_localfunctioncall",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localfunctioncall"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

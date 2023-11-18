@@ -1,0 +1,8 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_define/_localdefinition/test_nested_define.py,-1
+1,Function,func,0
+2,Function,inner,1
+3,Function,func2,0
+4,Variable,x,3
+5,Variable,t1,3
+6,Variable,t2,3

@@ -1,0 +1,5 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_aliasdefinition/_globalimport/module_a.py,-1
+1,Function,func,0
+2,Variable,x,0
+3,File,D:/ENRE-other/enre-py/tests/cases/_aliasdefinition/_globalimport/module_b.py,-1

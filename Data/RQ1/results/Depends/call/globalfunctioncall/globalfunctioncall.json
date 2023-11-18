@@ -1,0 +1,48 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_globalfunctioncall\\test_global_function_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_globalfunctioncall\\test_global_function_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_globalfunctioncall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_globalfunctioncall.func1",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_globalfunctioncall\\test_global_function_call.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 2,
+        "dest": 2
+      }
+    ]
+  }
+]

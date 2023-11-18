@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "abstractfunctiondefinition-out\\abstractfunctiondefinition-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py" ],
+  "cells" : [ ]
+}

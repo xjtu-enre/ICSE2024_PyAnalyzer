@@ -1,0 +1,12 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localdefinition-out\\localdefinition-sdsm",
+  "variables" : [ "test_nested_define.func", "test_nested_define.func.inner", "test_nested_define.func2" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0
+    }
+  } ]
+}

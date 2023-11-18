@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "testdecoratorcall-out\\testdecoratorcall-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_call/_testdecoratorcall/test_decorator_call.py" ],
+  "cells" : [ ]
+}

@@ -1,0 +1,9 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_call/_classmethodcall/test_method_call.py,-1
+1,Class,ClassA,0
+2,Function,method,1
+4,Function,__init__,1
+5,Class,ClassB,0
+6,Function,method,5
+8,Function,__init__,5
+9,Variable,instance,0

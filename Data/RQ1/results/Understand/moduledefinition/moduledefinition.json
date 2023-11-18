@@ -1,0 +1,87 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/moduledefinition/moduledefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_moduledefinition\\test_module_a.py"
+        },
+        {
+            "id": 1182,
+            "type": "File",
+            "name": "_moduledefinition\\test_module_b.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Variable Local",
+            "name": "b",
+            "qualified_name": "test_module_a.b",
+            "line": 1,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Local",
+            "name": "a",
+            "qualified_name": "test_module_b.a",
+            "line": 1,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 1182
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Import",
+            "inFile": 1180,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Alias",
+            "inFile": 1182,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 1182,
+            "to": 1180,
+            "type": "Python Import",
+            "inFile": 1182,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1182,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1182,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 1182,
+            "to": 1181,
+            "type": "Python Alias",
+            "inFile": 1180,
+            "line": 1,
+            "column": 25
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Base.attribute_a",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Base.attribute_b",
+        "id": 11,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Base.__init__",
+        "id": 29,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Inherit",
+        "id": 38,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Inherit.attribute_e",
+        "id": 42,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition.Inherit.__init__",
+        "id": 48,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classattributedefinition\\_staticclassattributedefinition\\test_static_class_attribute.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 11
+      },
+      {
+        "type": "Parameter",
+        "src": 29,
+        "dest": 30
+      },
+      {
+        "type": "Extend",
+        "src": 38,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 38,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 38,
+        "dest": 42
+      },
+      {
+        "type": "Parameter",
+        "src": 48,
+        "dest": 49
+      },
+      {
+        "type": "Call",
+        "src": 48,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 48,
+        "dest": 29
+      }
+    ]
+  }
+]

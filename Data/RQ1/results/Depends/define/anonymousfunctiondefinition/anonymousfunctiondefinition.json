@@ -1,0 +1,47 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition\\test_define_anonymous.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition\\test_define_anonymous.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition.foo",
+        "id": 5,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition\\test_define_anonymous.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition.ClassA",
+        "id": 9,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_anonymousfunctiondefinition\\test_define_anonymous.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

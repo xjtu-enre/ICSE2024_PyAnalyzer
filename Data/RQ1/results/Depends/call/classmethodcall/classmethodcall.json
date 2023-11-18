@@ -1,0 +1,118 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall.ClassA",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall.ClassA.method",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall.ClassB",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall.ClassB.method",
+        "id": 8,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": 12,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall.instance",
+        "id": 13,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_classmethodcall\\test_method_call.py",
+        "startLine": 16,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 13
+      },
+      {
+        "type": "Create",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 13
+      },
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 3
+      },
+      {
+        "type": "Parameter",
+        "src": 3,
+        "dest": 4
+      },
+      {
+        "type": "Parameter",
+        "src": 8,
+        "dest": 9
+      }
+    ]
+  }
+]

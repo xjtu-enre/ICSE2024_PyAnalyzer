@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "iterationvariable-out\\iterationvariable-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py" ],
+  "cells" : [ ]
+}

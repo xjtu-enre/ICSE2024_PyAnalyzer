@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py,-1
+1,Variable,x,0
+2,Function,func,0

@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "useclassattribute-out\\useclassattribute-sdsm",
+  "variables" : [ "test_use_class_attr.Base.__init__", "test_use_class_attr.Inherit.__init__", "test_use_class_attr.Inherit.use_attribute", "test_use_class_attr.Foo.__init__" ],
+  "cells" : [ ]
+}

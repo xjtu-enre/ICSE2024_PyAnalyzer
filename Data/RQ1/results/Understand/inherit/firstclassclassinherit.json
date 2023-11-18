@@ -1,0 +1,118 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/inherit/firstclassclassinherit.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_firstclassclassinherit\\test_first_order_class_inherit.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "SubClass",
+            "qualified_name": "test_first_order_class_inherit.SubClass",
+            "line": 14,
+            "start_column": 7,
+            "end_column": 15,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Variable Global",
+            "name": "cls",
+            "qualified_name": "test_first_order_class_inherit.cls",
+            "line": 11,
+            "start_column": 1,
+            "end_column": 4,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Function",
+            "name": "create_class",
+            "qualified_name": "test_first_order_class_inherit.create_class",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 17,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1184,
+            "type": "python Class",
+            "name": "Difficult",
+            "qualified_name": "test_first_order_class_inherit.create_class.Difficult",
+            "line": 5,
+            "start_column": 11,
+            "end_column": 20,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 14,
+            "column": 7
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 11,
+            "column": 7
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Inherit",
+            "inFile": 1180,
+            "line": 14,
+            "column": 16
+        },
+        {
+            "from": 1183,
+            "to": 1184,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 5,
+            "column": 11
+        },
+        {
+            "from": 1183,
+            "to": 1184,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 9,
+            "column": 12
+        }
+    ]
+}

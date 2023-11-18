@@ -1,0 +1,67 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition.func1",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition.func2",
+        "id": 6,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition.func3",
+        "id": 12,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition.func4",
+        "id": 16,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_parameterdefinition\\_parameterdefinition\\test_parameter.py",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

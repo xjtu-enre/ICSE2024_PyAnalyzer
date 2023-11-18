@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localfunctioncall-out\\localfunctioncall-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_call/_localfunctioncall/test_local_call.py" ],
+  "cells" : [ ]
+}

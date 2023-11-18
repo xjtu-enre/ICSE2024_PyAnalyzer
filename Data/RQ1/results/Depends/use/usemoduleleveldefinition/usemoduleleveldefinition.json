@@ -1,0 +1,133 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition.Inherit",
+        "id": 5,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition.func1",
+        "id": 10,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition.x",
+        "id": 20,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition.y",
+        "id": 27,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usemoduleleveldefinition\\test_module_level_use.py",
+        "startLine": 12,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 20
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 27
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 20
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 5
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 10
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 20
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 27
+      },
+      {
+        "type": "Extend",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 10,
+        "dest": 2
+      }
+    ]
+  }
+]

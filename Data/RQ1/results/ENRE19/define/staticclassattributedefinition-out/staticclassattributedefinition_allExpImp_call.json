@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "staticclassattributedefinition-out\\staticclassattributedefinition-sdsm",
+  "variables" : [ "test_static_class_attribute.Base.__init__", "test_static_class_attribute.Inherit.__init__" ],
+  "cells" : [ ]
+}

@@ -1,0 +1,897 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_localvariabledefinition.test_local_variable",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": 16,
+                "startColumn": 4,
+                "endColumn": 17
+            },
+            "signatures": [
+                "def func(p1: Any, p2: Any) -> Any"
+            ],
+            "exported": true,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.p1",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 9,
+                "endColumn": 11
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.p2",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 13,
+                "endColumn": 15
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 4,
+                "endColumn": 5
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.y",
+            "category": "Variable",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 4,
+                "endColumn": 5
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.t1",
+            "category": "Variable",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 4,
+                "endColumn": 6
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.t2",
+            "category": "Variable",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 8,
+                "endColumn": 10
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 16,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.t3",
+            "category": "Variable",
+            "location": {
+                "startLine": 8,
+                "endLine": 8,
+                "startColumn": 5,
+                "endColumn": 7
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 17,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner",
+            "category": "Function",
+            "location": {
+                "startLine": 9,
+                "endLine": 16,
+                "startColumn": 8,
+                "endColumn": 17
+            },
+            "signatures": [
+                "def inner() -> Any"
+            ],
+            "exported": true,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 19,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 8,
+                "endColumn": 9
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 21,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner.y",
+            "category": "Variable",
+            "location": {
+                "startLine": 12,
+                "endLine": 12,
+                "startColumn": 8,
+                "endColumn": 9
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 23,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner.t1",
+            "category": "Variable",
+            "location": {
+                "startLine": 14,
+                "endLine": 14,
+                "startColumn": 8,
+                "endColumn": 10
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 25,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner.t2",
+            "category": "Variable",
+            "location": {
+                "startLine": 14,
+                "endLine": 14,
+                "startColumn": 12,
+                "endColumn": 14
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": 27,
+            "qualifiedName": "_localvariabledefinition.test_local_variable.func.inner.t3",
+            "category": "Variable",
+            "location": {
+                "startLine": 16,
+                "endLine": 16,
+                "startColumn": 9,
+                "endColumn": 11
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localvariabledefinition/test_local_variable.py"
+        },
+        {
+            "id": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "qualifiedName": "builtins.int",
+            "category": "Class",
+            "location": {
+                "startLine": 762,
+                "endLine": 833,
+                "startColumn": 0,
+                "endColumn": 96
+            },
+            "signatures": [
+                "class int(typing.SupportsInt, typing.SupportsFloat, typing.SupportsAbs)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_localvariabledefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localvariabledefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 4,
+            "dest": 12,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 12,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 14,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 14,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 4,
+            "dest": 16,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 5
+            }
+        },
+        {
+            "src": 4,
+            "dest": 16,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 5
+            }
+        },
+        {
+            "src": 4,
+            "dest": 17,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 12,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 14,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 16,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 17,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 17,
+            "dest": 8,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 19,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 19,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 17,
+            "dest": 10,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 21,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 21,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 17,
+            "dest": 12,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 23,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 23,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 17,
+            "dest": 14,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 17,
+            "dest": 25,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 17,
+            "dest": 25,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 17,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 17,
+            "dest": 16,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 17,
+            "dest": 27,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 17,
+            "dest": 27,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 19,
+            "dest": 17,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 21,
+            "dest": 17,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 21,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 23,
+            "dest": 17,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 25,
+            "dest": 17,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 27,
+            "dest": 17,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

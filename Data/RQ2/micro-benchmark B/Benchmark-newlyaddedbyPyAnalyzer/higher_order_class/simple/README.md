@@ -1,0 +1,1 @@
+A function `create_class` which is called later returns a nested class `Simple` that contains a method.

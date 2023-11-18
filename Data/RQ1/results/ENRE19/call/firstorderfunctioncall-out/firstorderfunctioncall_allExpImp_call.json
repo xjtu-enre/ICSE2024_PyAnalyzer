@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "firstorderfunctioncall-out\\firstorderfunctioncall-sdsm",
+  "variables" : [ "test_first_order_func_call.foo", "test_first_order_func_call.acceptor" ],
+  "cells" : [ ]
+}

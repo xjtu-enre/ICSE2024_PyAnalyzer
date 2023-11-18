@@ -1,0 +1,80 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/contain/regularpackage.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "package_a\\__init__.py"
+        },
+        {
+            "id": 1182,
+            "type": "File",
+            "name": "package_a\\module_a.py"
+        },
+        {
+            "id": 1184,
+            "type": "File",
+            "name": "package_a\\package_b\\__init__.py"
+        },
+        {
+            "id": 1181,
+            "type": "Package",
+            "name": "package_a",
+            "qualified_name": "package_a"
+        },
+        {
+            "id": 1183,
+            "type": "Package",
+            "name": "package_a",
+            "qualified_name": "package_a"
+        },
+        {
+            "id": 1185,
+            "type": "Package",
+            "name": "package_b",
+            "qualified_name": "package_a.package_b"
+        },
+        {
+            "id": 1186,
+            "type": "Package",
+            "name": "package_a",
+            "qualified_name": "package_a"
+        }
+    ],
+    "relations": [
+        {
+            "from": 1181,
+            "to": 1180,
+            "type": "Python Contain",
+            "inFile": 1180,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 1183,
+            "to": 1182,
+            "type": "Python Contain",
+            "inFile": 1182,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 1185,
+            "to": 1184,
+            "type": "Python Contain",
+            "inFile": 1184,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 1186,
+            "to": 1185,
+            "type": "Python Declare Implicit",
+            "inFile": 1184,
+            "line": 0,
+            "column": 1
+        }
+    ]
+}

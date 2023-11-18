@@ -1,0 +1,1 @@
+A function `func` takes a list of functions as input, and then it iterates over the list, calling each function in sequence.

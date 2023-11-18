@@ -1,0 +1,58 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition\\file0.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition\\file0.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition\\file0.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition.Inherit",
+        "id": 5,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_inheritglobalclassdefinition\\file0.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 5,
+        "dest": 2
+      }
+    ]
+  }
+]

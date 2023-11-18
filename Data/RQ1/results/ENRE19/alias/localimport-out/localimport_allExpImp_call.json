@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localimport-out\\localimport-sdsm",
+  "variables" : [ "file0.func", "file0.Clz.__init__", "file1.foo", "file1.Bar.__init__" ],
+  "cells" : [ ]
+}

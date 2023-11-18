@@ -1,0 +1,5 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_globalvariabledefinition/test_global_variable.py,-1
+1,Variable,x,0
+2,Variable,t1,0
+3,Variable,t2,0

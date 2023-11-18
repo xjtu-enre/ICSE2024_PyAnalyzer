@@ -1,0 +1,177 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_setmoduleleveldefinition.module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_setmoduleleveldefinition/module_a.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_setmoduleleveldefinition.module_a.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "type": "(str | int)",
+            "exported": true,
+            "file": "_setmoduleleveldefinition/module_a.py"
+        },
+        {
+            "id": "2a12d58b376f1f1898cc88eb7907ea92",
+            "qualifiedName": "builtins.input",
+            "category": "Function",
+            "location": {
+                "startLine": 88,
+                "endLine": 88,
+                "startColumn": 0,
+                "endColumn": 40
+            },
+            "signatures": [
+                "def input(prompt: str) -> str"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "qualifiedName": "builtins.int",
+            "category": "Class",
+            "location": {
+                "startLine": 762,
+                "endLine": 833,
+                "startColumn": 0,
+                "endColumn": 96
+            },
+            "signatures": [
+                "class int(typing.SupportsInt, typing.SupportsFloat, typing.SupportsAbs)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_setmoduleleveldefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_setmoduleleveldefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": "2a12d58b376f1f1898cc88eb7907ea92",
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

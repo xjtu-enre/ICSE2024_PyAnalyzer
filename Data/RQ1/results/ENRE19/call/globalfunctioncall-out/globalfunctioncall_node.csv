@@ -1,0 +1,3 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_call/_globalfunctioncall/test_global_function_call.py,-1
+1,Function,func1,0

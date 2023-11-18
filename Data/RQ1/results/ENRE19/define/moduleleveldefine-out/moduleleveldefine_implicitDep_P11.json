@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "moduleleveldefine-out\\moduleleveldefine-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_define/_moduleleveldefine/test_module_level_define.py" ],
+  "cells" : [ ]
+}

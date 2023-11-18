@@ -1,0 +1,13 @@
+def func1(x):
+    ...
+
+def func2(x: int):
+    ...
+
+def func3(x, *y, **z):
+    ...
+
+def func4(x: int=1):
+    ...
+
+lambda t: t

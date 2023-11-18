@@ -1,0 +1,143 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.A",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner",
+        "id": 8,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner.__metaclass__",
+        "id": 10,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner.__init__",
+        "id": 16,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 12,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner.__new__",
+        "id": 30,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 17,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner.func1",
+        "id": 44,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 22,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.Inner.func2",
+        "id": 46,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 26,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition.B.func3",
+        "id": 50,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_abstractclassdefinition\\test_abstract_class.py",
+        "startLine": 29,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 8,
+        "dest": 10
+      },
+      {
+        "type": "Parameter",
+        "src": 16,
+        "dest": 17
+      },
+      {
+        "type": "Parameter",
+        "src": 44,
+        "dest": 45
+      },
+      {
+        "type": "Parameter",
+        "src": 46,
+        "dest": 47
+      },
+      {
+        "type": "Parameter",
+        "src": 50,
+        "dest": 51
+      }
+    ]
+  }
+]

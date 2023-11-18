@@ -1,0 +1,12 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_define/_staticclassattributedefinition/test_static_class_attribute.py,-1
+1,Class,Base,0
+2,Variable,attribute_a,1
+3,Variable,attribute_c,1
+4,Variable,attribute_d,1
+5,Function,__init__,1
+7,Variable,attribute_x,1
+8,Class,Inherit,0
+9,Variable,attribute_e,8
+10,Function,__init__,8
+12,Variable,attribute_f,8

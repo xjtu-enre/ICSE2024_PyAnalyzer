@@ -1,0 +1,1 @@
+A function named `foo` which is later called is either defined in the true branch of an if-else statement or assigned as the function `func` in the false branch.

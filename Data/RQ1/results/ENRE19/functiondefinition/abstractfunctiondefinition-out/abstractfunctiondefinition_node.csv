@@ -1,0 +1,7 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py,-1
+1,Class,Foo,0
+2,Function,foo1,1
+4,Function,foo2,1
+6,Function,foo3,1
+8,Function,__init__,1

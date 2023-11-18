@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "moduledefinition-out\\moduledefinition-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_moduledefinition/_moduledefinition/test_module_a.py", "D:/ENRE-other/enre-py/tests/cases/_moduledefinition/_moduledefinition/test_module_b.py" ],
+  "cells" : [ ]
+}

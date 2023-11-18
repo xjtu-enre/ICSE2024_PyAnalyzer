@@ -1,0 +1,1480 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.A",
+            "category": "Class",
+            "location": {
+                "startLine": 4,
+                "endLine": 5,
+                "startColumn": 6,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class A(abc.ABC)"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "modifier": [
+                    "abstract class"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.A.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "type": "abc.ABC",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B",
+            "category": "Class",
+            "location": {
+                "startLine": 8,
+                "endLine": 31,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class B"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "modifier": [
+                    "abstract class"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": 27,
+                "startColumn": 10,
+                "endColumn": 15
+            },
+            "signatures": [
+                "class Inner"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "modifier": [
+                    "abstract class"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__metaclass__",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 8,
+                "endColumn": 21
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 18,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__init__",
+            "category": "Method",
+            "location": {
+                "startLine": 13,
+                "endLine": 15,
+                "startColumn": 12,
+                "endColumn": 106
+            },
+            "signatures": [
+                "def __init__(self: _abstractclassdefinition.test_abstract_class.B.Inner) -> Any"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "decorators": [
+                    "@abc.abstractmethod"
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__init__.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 13,
+                "endLine": 13,
+                "startColumn": 21,
+                "endColumn": 25
+            },
+            "type": "_abstractclassdefinition.test_abstract_class.B.Inner",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 20,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__new__",
+            "category": "Method",
+            "location": {
+                "startLine": 18,
+                "endLine": 20,
+                "startColumn": 12,
+                "endColumn": 106
+            },
+            "signatures": [
+                "def __new__(cls: _abstractclassdefinition.test_abstract_class.B.Inner) -> Any"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "decorators": [
+                    "@abc.abstractmethod"
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__new__.cls",
+            "category": "Parameter",
+            "location": {
+                "startLine": 18,
+                "endLine": 18,
+                "startColumn": 20,
+                "endColumn": 23
+            },
+            "type": "_abstractclassdefinition.test_abstract_class.B.Inner",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 22,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.func1",
+            "category": "Method",
+            "location": {
+                "startLine": 23,
+                "endLine": 24,
+                "startColumn": 12,
+                "endColumn": 16
+            },
+            "signatures": [
+                "def func1(self: _abstractclassdefinition.test_abstract_class.B.Inner) -> Any"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "decorators": [
+                    "@abc.abstractmethod"
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.func1.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 23,
+                "endLine": 23,
+                "startColumn": 18,
+                "endColumn": 22
+            },
+            "type": "_abstractclassdefinition.test_abstract_class.B.Inner",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 24,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.func2",
+            "category": "Method",
+            "location": {
+                "startLine": 26,
+                "endLine": 27,
+                "startColumn": 12,
+                "endColumn": 15
+            },
+            "signatures": [
+                "def func2(self: _abstractclassdefinition.test_abstract_class.B.Inner) -> Any"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 25,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.func2.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 26,
+                "endLine": 26,
+                "startColumn": 18,
+                "endColumn": 22
+            },
+            "type": "_abstractclassdefinition.test_abstract_class.B.Inner",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 26,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.func3",
+            "category": "Method",
+            "location": {
+                "startLine": 30,
+                "endLine": 31,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def func3(self: _abstractclassdefinition.test_abstract_class.B) -> Any"
+            ],
+            "exported": true,
+            "file": "_abstractclassdefinition/test_abstract_class.py",
+            "modifiers": {
+                "decorators": [
+                    "@abc.abstractmethod"
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.func3.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 30,
+                "endLine": 30,
+                "startColumn": 14,
+                "endColumn": 18
+            },
+            "type": "_abstractclassdefinition.test_abstract_class.B",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": 28,
+            "qualifiedName": "_abstractclassdefinition.test_abstract_class.B.Inner.__class__",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 14,
+                "endLine": -1,
+                "startColumn": 20,
+                "endColumn": -1
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_abstractclassdefinition/test_abstract_class.py"
+        },
+        {
+            "id": "c4e58db71641bd8140be926efdcf39c2",
+            "qualifiedName": "typing.TypeVar",
+            "category": "Class",
+            "location": {
+                "startLine": 4,
+                "endLine": 5,
+                "startColumn": 0,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class TypeVar(object)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/typing.pyi"
+        },
+        {
+            "id": "51973a2f9de7d0397e3991503f2e7095",
+            "qualifiedName": "typing.Any",
+            "category": "Class",
+            "location": {
+                "startLine": 6,
+                "endLine": 7,
+                "startColumn": 0,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class Any(object)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/typing.pyi"
+        },
+        {
+            "id": "a0022352c6e1f685469e739f0cb7021e",
+            "qualifiedName": "typing.Callable",
+            "category": "Class",
+            "location": {
+                "startLine": 52,
+                "endLine": 65,
+                "startColumn": 0,
+                "endColumn": 50
+            },
+            "signatures": [
+                "class Callable(typing.Generic, typing.Protocol)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/typing.pyi"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "1d60846c43bd0e33426261e6de36a16d",
+            "qualifiedName": "builtins.str",
+            "category": "Class",
+            "location": {
+                "startLine": 290,
+                "endLine": 362,
+                "startColumn": 0,
+                "endColumn": 47
+            },
+            "signatures": [
+                "class str(typing.Sequence, typing.Hashable)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "8a4e12002ec2eef988dbc230126ae2a9",
+            "qualifiedName": "builtins.type",
+            "category": "Class",
+            "location": {
+                "startLine": 974,
+                "endLine": 994,
+                "startColumn": 0,
+                "endColumn": 36
+            },
+            "signatures": [
+                "class type(typing.Callable, typing.Type)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "5f4a19997eaab0db93cd79811080c0ee",
+            "qualifiedName": "builtins.NotImplementedError",
+            "category": "Class",
+            "location": {
+                "startLine": 1194,
+                "endLine": 1195,
+                "startColumn": 0,
+                "endColumn": 8
+            },
+            "signatures": [
+                "class NotImplementedError(RuntimeError)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "abc",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "abc.abstractmethod",
+            "category": "Function",
+            "location": {
+                "startLine": 29,
+                "endLine": 29,
+                "startColumn": 4,
+                "endColumn": 50
+            },
+            "signatures": [
+                "def abstractmethod(funcobj: Any) -> Any"
+            ],
+            "exported": true,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "abc.abstractmethod.funcobj",
+            "category": "Parameter",
+            "location": {
+                "startLine": 29,
+                "endLine": 29,
+                "startColumn": 19,
+                "endColumn": 34
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "abc._FuncT",
+            "category": "Variable",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 0,
+                "endColumn": 6
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "abc.ABCMeta",
+            "category": "Class",
+            "location": {
+                "startLine": 13,
+                "endLine": 27,
+                "startColumn": 6,
+                "endColumn": 67
+            },
+            "signatures": [
+                "class ABCMeta(type)"
+            ],
+            "exported": true,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "abc.ABCMeta.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 13,
+                "endLine": 13,
+                "startColumn": 14,
+                "endColumn": 18
+            },
+            "type": "type",
+            "exported": false,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "abc.ABC",
+            "category": "Class",
+            "location": {
+                "startLine": 42,
+                "endLine": 42,
+                "startColumn": 6,
+                "endColumn": 33
+            },
+            "signatures": [
+                "class ABC"
+            ],
+            "exported": true,
+            "file": "C:/Users/admin/AppData/Local/Temp/_MEI175002/typeshed/stdlib/abc.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_abstractclassdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_abstractclassdefinition"
+        },
+        {
+            "id": 30,
+            "qualifiedName": "__name__",
+            "category": "UnresolvedAttribute",
+            "location": {
+                "startLine": 14,
+                "endLine": 14,
+                "startColumn": 15,
+                "endColumn": 38
+            },
+            "exported": false
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Import"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Import"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 32
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Import"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 41
+            }
+        },
+        {
+            "src": 2,
+            "dest": 12,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 2,
+            "dest": 14,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 12,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 12,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 12,
+            "dest": 11,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 12,
+            "dest": 11,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 14,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 14,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 14,
+            "dest": 15,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 14,
+            "dest": 26,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 30,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 14,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 5
+            }
+        },
+        {
+            "src": 15,
+            "dest": 14,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": 9,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 24
+            }
+        },
+        {
+            "src": 15,
+            "dest": 17,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 15,
+            "dest": 17,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 15,
+            "dest": 18,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 15,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 15,
+            "dest": 20,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 15,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 17,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 15,
+            "dest": 22,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 23,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 15,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 22,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 15,
+            "dest": 24,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 26,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 17,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 18,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 18,
+            "dest": 19,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 21
+            }
+        },
+        {
+            "src": 18,
+            "dest": 19,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 18,
+            "dest": 28,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 18,
+            "dest": 28,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 18,
+            "dest": 29,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 30
+            }
+        },
+        {
+            "src": 18,
+            "dest": "1d60846c43bd0e33426261e6de36a16d",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 42
+            }
+        },
+        {
+            "src": 18,
+            "dest": "5f4a19997eaab0db93cd79811080c0ee",
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 22
+            }
+        },
+        {
+            "src": 18,
+            "dest": "1d60846c43bd0e33426261e6de36a16d",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 42
+            }
+        },
+        {
+            "src": 18,
+            "dest": "5f4a19997eaab0db93cd79811080c0ee",
+            "values": {
+                "kind": "Raise"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 18,
+            "dest": 30,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 30
+            }
+        },
+        {
+            "src": 19,
+            "dest": 18,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 20,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 20,
+            "dest": 21,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 20,
+            "dest": 21,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 20,
+            "dest": 28,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 20,
+            "dest": 29,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 29
+            }
+        },
+        {
+            "src": 20,
+            "dest": "1d60846c43bd0e33426261e6de36a16d",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 41
+            }
+        },
+        {
+            "src": 20,
+            "dest": "5f4a19997eaab0db93cd79811080c0ee",
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 20,
+                "startCol": 22
+            }
+        },
+        {
+            "src": 20,
+            "dest": "1d60846c43bd0e33426261e6de36a16d",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 20,
+                "startCol": 42
+            }
+        },
+        {
+            "src": 20,
+            "dest": "5f4a19997eaab0db93cd79811080c0ee",
+            "values": {
+                "kind": "Raise"
+            },
+            "location": {
+                "startLine": 20,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 21,
+            "dest": 20,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 22,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 22,
+            "dest": 23,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 23,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 23,
+            "dest": 22,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 24,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 24,
+            "dest": 25,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 26,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 25,
+            "dest": 24,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 26,
+            "dest": 14,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 26,
+            "dest": 27,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 30,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 27,
+            "dest": 26,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 28,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": "c4e58db71641bd8140be926efdcf39c2",
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 4,
+            "dest": "1d60846c43bd0e33426261e6de36a16d",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 4,
+            "dest": "51973a2f9de7d0397e3991503f2e7095",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 47
+            }
+        },
+        {
+            "src": 4,
+            "dest": "a0022352c6e1f685469e739f0cb7021e",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 33
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 28
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 39
+            }
+        },
+        {
+            "src": 4,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 4,
+            "dest": "8a4e12002ec2eef988dbc230126ae2a9",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 4,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 42,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 5,
+            "dest": 8,
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 39
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 8,
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 29,
+                "startCol": 28
+            }
+        },
+        {
+            "src": 8,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": "8a4e12002ec2eef988dbc230126ae2a9",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 9,
+            "dest": "8a4e12002ec2eef988dbc230126ae2a9",
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

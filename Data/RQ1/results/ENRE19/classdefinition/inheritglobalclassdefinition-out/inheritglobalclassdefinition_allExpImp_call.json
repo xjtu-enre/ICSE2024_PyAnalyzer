@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "inheritglobalclassdefinition-out\\inheritglobalclassdefinition-sdsm",
+  "variables" : [ "file0.Base.__init__", "file0.Inherit.__init__" ],
+  "cells" : [ ]
+}

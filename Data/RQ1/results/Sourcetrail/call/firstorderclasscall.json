@@ -1,0 +1,203 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_first_order_class_call",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_first_order_class_call.Base",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "test_first_order_class_call.base",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 4
+        },
+        {
+            "id": 8,
+            "name": "test_first_order_class_call.Base.__init__",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "test_first_order_class_call.create_class",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 13,
+            "name": "test_first_order_class_call.create_class.Difficult",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 15,
+            "name": "test_first_order_class_call.create_class.Difficult.test",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 8,
+            "start_column": 9,
+            "end_column": 0
+        },
+        {
+            "id": 19,
+            "name": "test_first_order_class_call.cls",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 12,
+            "start_column": 1,
+            "end_column": 3
+        },
+        {
+            "id": 22,
+            "name": "test_first_order_class_call.difficult_obj",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_firstorderclasscall/test_first_order_class_call.py",
+            "line": 14,
+            "start_column": 1,
+            "end_column": 13
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 11,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 11,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "firstorderclasscall"
+}

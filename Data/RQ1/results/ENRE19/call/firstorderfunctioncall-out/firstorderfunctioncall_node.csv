@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_call/_firstorderfunctioncall/test_first_order_func_call.py,-1
+1,Function,foo,0
+2,Function,acceptor,0

@@ -1,0 +1,104 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_iteration_variable",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_iteration_variable.x",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 5,
+            "name": "test_iteration_variable.a",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 5
+        },
+        {
+            "id": 7,
+            "name": "test_iteration_variable.b",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py",
+            "line": 3,
+            "start_column": 8,
+            "end_column": 8
+        },
+        {
+            "id": 10,
+            "name": "test_iteration_variable.func",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_variabledefinition/_iterationvariable/test_iteration_variable.py",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 10,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "iterationvariable"
+}

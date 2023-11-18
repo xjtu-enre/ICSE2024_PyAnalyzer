@@ -1,0 +1,129 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_parameterdefinition/_parameterdefinition/test_parameter.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_parameter",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_parameter.func1",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_parameterdefinition/_parameterdefinition/test_parameter.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 6,
+            "name": "test_parameter.func2",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_parameterdefinition/_parameterdefinition/test_parameter.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 9,
+            "name": "builtins",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "builtins.int",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 13,
+            "name": "test_parameter.func3",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_parameterdefinition/_parameterdefinition/test_parameter.py",
+            "line": 7,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 18,
+            "name": "test_parameter.func4",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_parameterdefinition/_parameterdefinition/test_parameter.py",
+            "line": 10,
+            "start_column": 1,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 18,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 18,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "parameterdefinition"
+}

@@ -1,0 +1,3 @@
+def mixin(c, d):
+    class Mixed(c, d):
+        ...

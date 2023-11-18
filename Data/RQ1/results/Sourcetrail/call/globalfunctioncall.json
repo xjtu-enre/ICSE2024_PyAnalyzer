@@ -1,0 +1,56 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_globalfunctioncall/test_global_function_call.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_global_function_call",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_global_function_call.func1",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_globalfunctioncall/test_global_function_call.py",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 3,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "globalfunctioncall"
+}

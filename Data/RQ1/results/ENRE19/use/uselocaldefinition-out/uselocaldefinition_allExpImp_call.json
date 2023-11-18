@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "uselocaldefinition-out\\uselocaldefinition-sdsm",
+  "variables" : [ "test_local_use.func", "test_local_use.func.inner", "test_local_use.func2" ],
+  "cells" : [ ]
+}

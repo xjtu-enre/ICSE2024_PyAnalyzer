@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localvariabledefinition-out\\localvariabledefinition-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_localvariabledefinition/test_local_variable.py" ],
+  "cells" : [ ]
+}

@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/classdefinition/globalclassdefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_globalclassdefinition\\test_global_class.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "Base",
+            "qualified_name": "test_global_class.Base",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 11,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 7
+        }
+    ]
+}

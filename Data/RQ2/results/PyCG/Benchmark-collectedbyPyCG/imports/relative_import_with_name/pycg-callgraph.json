@@ -1,0 +1,1 @@
+{"main": ["nested.to_import.func1"], "nested.to_import.func1": ["relative.func2"], "nested": [], "nested.to_import": [], "relative.func2": [], "nested.relative": [], "nested.relative.func2": []}

@@ -1,0 +1,88 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_a.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_a.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_a.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport.x",
+        "id": 6,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_a.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_b.py",
+        "id": 12,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport.f",
+        "id": 13,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport.x_b",
+        "id": 14,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_aliasdefinition\\_globalimport\\module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 6
+      },
+      {
+        "type": "Import",
+        "src": 12,
+        "dest": 0
+      }
+    ]
+  }
+]

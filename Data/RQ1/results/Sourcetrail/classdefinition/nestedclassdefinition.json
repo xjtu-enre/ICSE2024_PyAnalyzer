@@ -1,0 +1,106 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "file0",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "file0.Out",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "file0.Out.Inner1",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 7,
+            "name": "file0.out_func",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 7
+        },
+        {
+            "id": 9,
+            "name": "file0.out_func.Inner2",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 11,
+            "name": "file0.out_func.Inner2.Inner3",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py",
+            "line": 8,
+            "start_column": 9,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 7,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "nestedclassdefinition"
+}

@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/functiondefinition/globalfunctiondefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_globalfunctiondefinition\\test_global_function.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Function",
+            "name": "func1",
+            "qualified_name": "test_global_function.func1",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "classmethoddefinition-out\\classmethoddefinition-sdsm",
+  "variables" : [ "test_method_definition.ClassA.method", "test_method_definition.ClassA.__init__", "test_method_definition.ClassB.method", "test_method_definition.ClassB.__init__", "test_method_definition.InheritClassA.method", "test_method_definition.InheritClassA.__init__" ],
+  "cells" : [ ]
+}

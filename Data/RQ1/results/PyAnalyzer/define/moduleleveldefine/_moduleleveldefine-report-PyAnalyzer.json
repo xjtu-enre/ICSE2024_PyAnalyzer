@@ -1,0 +1,592 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.Base",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": 5,
+                "startColumn": 6,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class Base"
+            ],
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.Inherit",
+            "category": "Class",
+            "location": {
+                "startLine": 6,
+                "endLine": 10,
+                "startColumn": 6,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class Inherit(_moduleleveldefine.test_module_level_define.Base)"
+            ],
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.Inherit.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 14,
+                "endColumn": 18
+            },
+            "type": "_moduleleveldefine.test_module_level_define.Base",
+            "exported": false,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.func1",
+            "category": "Function",
+            "location": {
+                "startLine": 11,
+                "endLine": 14,
+                "startColumn": 4,
+                "endColumn": 12
+            },
+            "signatures": [
+                "def func1() -> int"
+            ],
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 15,
+                "endLine": 15,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.y",
+            "category": "Variable",
+            "location": {
+                "startLine": 18,
+                "endLine": 18,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.t1",
+            "category": "Variable",
+            "location": {
+                "startLine": 21,
+                "endLine": 21,
+                "startColumn": 0,
+                "endColumn": 2
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 15,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.t2",
+            "category": "Variable",
+            "location": {
+                "startLine": 21,
+                "endLine": 21,
+                "startColumn": 4,
+                "endColumn": 6
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": 17,
+            "qualifiedName": "_moduleleveldefine.test_module_level_define.t3",
+            "category": "Variable",
+            "location": {
+                "startLine": 26,
+                "endLine": 26,
+                "startColumn": 1,
+                "endColumn": 3
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_moduleleveldefine/test_module_level_define.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "qualifiedName": "builtins.int",
+            "category": "Class",
+            "location": {
+                "startLine": 762,
+                "endLine": 833,
+                "startColumn": 0,
+                "endColumn": 96
+            },
+            "signatures": [
+                "class int(typing.SupportsInt, typing.SupportsFloat, typing.SupportsAbs)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_moduleleveldefine",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_moduleleveldefine"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 15,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 2,
+            "dest": 13,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 13,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 15,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 15,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 21,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 26,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 2,
+            "dest": 17,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 26,
+                "startCol": 1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 17,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 26,
+                "startCol": 1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 9,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 13,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 17,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

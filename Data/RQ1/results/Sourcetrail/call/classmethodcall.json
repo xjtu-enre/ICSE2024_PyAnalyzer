@@ -1,0 +1,150 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_method_call",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_method_call.ClassA",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "test_method_call.ClassA.method",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 8,
+            "name": "test_method_call.ClassB",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "line": 9,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 10,
+            "name": "test_method_call.ClassB.method",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "line": 12,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 13,
+            "name": "test_method_call.instance",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_call/_classmethodcall/test_method_call.py",
+            "line": 16,
+            "start_column": 1,
+            "end_column": 8
+        },
+        {
+            "id": 16,
+            "name": "test_method_call.ClassA.__init__",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 8,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "classmethodcall"
+}

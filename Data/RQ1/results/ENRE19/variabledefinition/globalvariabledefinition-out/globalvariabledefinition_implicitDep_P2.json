@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "globalvariabledefinition-out\\globalvariabledefinition-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_globalvariabledefinition/test_global_variable.py" ],
+  "cells" : [ ]
+}

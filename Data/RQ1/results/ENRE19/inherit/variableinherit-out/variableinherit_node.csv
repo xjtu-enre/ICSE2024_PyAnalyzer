@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_inherit/_variableinherit/test_variable_inherit.py,-1
+1,Function,mixin,0
+4,Class,Mixed,1

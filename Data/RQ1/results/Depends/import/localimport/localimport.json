@@ -1,0 +1,158 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file0.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file0.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.var",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file0.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.func",
+        "id": 9,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file0.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.Clz",
+        "id": 10,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file0.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "id": 11,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.foo",
+        "id": 12,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.foo.var",
+        "id": 13,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.foo.func",
+        "id": 14,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.foo.Clz",
+        "id": 15,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.Bar",
+        "id": 16,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.Bar.var",
+        "id": 17,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.Bar.func",
+        "id": 18,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_import\\_localimport.Bar.Clz",
+        "id": 19,
+        "entityType": "Alias",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_import\\_localimport\\file1.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 3
+      },
+      {
+        "type": "Import",
+        "src": 11,
+        "dest": 0
+      }
+    ]
+  }
+]

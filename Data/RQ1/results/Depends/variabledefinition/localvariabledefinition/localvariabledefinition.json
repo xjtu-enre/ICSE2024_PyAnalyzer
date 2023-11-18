@@ -1,0 +1,88 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition.func.x",
+        "id": 6,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition.func.y",
+        "id": 13,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition.func.inner",
+        "id": 37,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_localvariabledefinition\\test_local_variable.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 6
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 13
+      },
+      {
+        "type": "Use",
+        "src": 37,
+        "dest": 6
+      },
+      {
+        "type": "Use",
+        "src": 37,
+        "dest": 13
+      }
+    ]
+  }
+]

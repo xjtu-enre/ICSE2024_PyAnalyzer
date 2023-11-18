@@ -1,0 +1,136 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_method_definition",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_method_definition.ClassA",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "test_method_definition.ClassA.method",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 8,
+            "name": "test_method_definition.ClassB",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 10,
+            "name": "test_method_definition.ClassB.method",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 13,
+            "name": "test_method_definition.InheritClassA",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 9,
+            "start_column": 1,
+            "end_column": 11
+        },
+        {
+            "id": 16,
+            "name": "test_method_definition.InheritClassA.method",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_classmethoddefinition/test_method_definition.py",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 11
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 8,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 13,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "OVERRIDE",
+            "from": 16,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "classmethoddefinition"
+}

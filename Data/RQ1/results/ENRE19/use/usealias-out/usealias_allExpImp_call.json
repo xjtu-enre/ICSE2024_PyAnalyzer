@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "usealias-out\\usealias-sdsm",
+  "variables" : [ "module_a.func", "module_a.ClassA.__init__", "module_b.foo", "module_b.ClassB.__init__" ],
+  "cells" : [ ]
+}

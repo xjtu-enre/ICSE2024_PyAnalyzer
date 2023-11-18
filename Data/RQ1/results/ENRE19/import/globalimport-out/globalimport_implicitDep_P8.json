@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "globalimport-out\\globalimport-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_import/_globalimport/file0.py", "D:/ENRE-other/enre-py/tests/cases/_import/_globalimport/file1.py" ],
+  "cells" : [ ]
+}

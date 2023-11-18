@@ -1,0 +1,12 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localfunctioncall-out\\localfunctioncall-sdsm",
+  "variables" : [ "test_local_call.func", "test_local_call.func.inner" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0
+    }
+  } ]
+}

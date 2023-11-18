@@ -1,0 +1,158 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.Inherit",
+        "id": 5,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.Base2",
+        "id": 10,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.Inherit1",
+        "id": 13,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.func",
+        "id": 20,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 12,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.func.LocalInherit",
+        "id": 21,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 13,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit.func.LocalInherit2",
+        "id": 26,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_classinherit\\file0.py",
+        "startLine": 16,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Extend",
+        "src": 13,
+        "dest": 2
+      },
+      {
+        "type": "Extend",
+        "src": 13,
+        "dest": 10
+      },
+      {
+        "type": "Use",
+        "src": 13,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 13,
+        "dest": 10
+      },
+      {
+        "type": "Extend",
+        "src": 21,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 21,
+        "dest": 2
+      },
+      {
+        "type": "Extend",
+        "src": 26,
+        "dest": 2
+      },
+      {
+        "type": "Extend",
+        "src": 26,
+        "dest": 10
+      },
+      {
+        "type": "Use",
+        "src": 26,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 26,
+        "dest": 10
+      }
+    ]
+  }
+]

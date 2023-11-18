@@ -1,0 +1,304 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_nestedclassdefinition.file0",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_nestedclassdefinition.file0.Out",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": 4,
+                "startColumn": 6,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class Out"
+            ],
+            "exported": true,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_nestedclassdefinition.file0.Out.Inner1",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": 3,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class Inner1"
+            ],
+            "exported": true,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_nestedclassdefinition.file0.out_func",
+            "category": "Function",
+            "location": {
+                "startLine": 6,
+                "endLine": 11,
+                "startColumn": 4,
+                "endColumn": 7
+            },
+            "signatures": [
+                "def out_func() -> Any"
+            ],
+            "exported": true,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_nestedclassdefinition.file0.out_func.Inner2",
+            "category": "Class",
+            "location": {
+                "startLine": 7,
+                "endLine": 10,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class Inner2"
+            ],
+            "exported": false,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_nestedclassdefinition.file0.out_func.Inner2.Inner3",
+            "category": "Class",
+            "location": {
+                "startLine": 8,
+                "endLine": 9,
+                "startColumn": 14,
+                "endColumn": 15
+            },
+            "signatures": [
+                "class Inner3"
+            ],
+            "exported": false,
+            "file": "_nestedclassdefinition/file0.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_nestedclassdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_nestedclassdefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 7,
+            "dest": 6,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 8,
+            "dest": 7,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

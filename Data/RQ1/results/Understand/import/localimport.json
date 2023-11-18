@@ -1,0 +1,181 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/import/localimport.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_localimport\\file0.py"
+        },
+        {
+            "id": 1184,
+            "type": "File",
+            "name": "_localimport\\file1.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "Clz",
+            "qualified_name": "file0.Clz",
+            "line": 6,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "file0.func",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Global",
+            "name": "var",
+            "qualified_name": "file0.var",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 4,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Class",
+            "name": "Bar",
+            "qualified_name": "file1.Bar",
+            "line": 4,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1184
+        },
+        {
+            "id": 1186,
+            "type": "python Function",
+            "name": "foo",
+            "qualified_name": "file1.foo",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1184
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 7
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1184,
+            "to": 1186,
+            "type": "Python Define",
+            "inFile": 1184,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1184,
+            "line": 4,
+            "column": 7
+        },
+        {
+            "from": 1185,
+            "to": 1180,
+            "type": "Python Import From",
+            "inFile": 1184,
+            "line": 5,
+            "column": 10
+        },
+        {
+            "from": 1185,
+            "to": 1183,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 5,
+            "column": 23
+        },
+        {
+            "from": 1185,
+            "to": 1182,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 5,
+            "column": 28
+        },
+        {
+            "from": 1185,
+            "to": 1181,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 5,
+            "column": 34
+        },
+        {
+            "from": 1186,
+            "to": 1180,
+            "type": "Python Import From",
+            "inFile": 1184,
+            "line": 2,
+            "column": 10
+        },
+        {
+            "from": 1186,
+            "to": 1183,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 2,
+            "column": 23
+        },
+        {
+            "from": 1186,
+            "to": 1182,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 2,
+            "column": 28
+        },
+        {
+            "from": 1186,
+            "to": 1181,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 2,
+            "column": 34
+        }
+    ]
+}

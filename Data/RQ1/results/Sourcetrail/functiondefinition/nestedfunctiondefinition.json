@@ -1,0 +1,102 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_nestedfunctiondefinition/file0.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "file0",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "file0.func",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_nestedfunctiondefinition/file0.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "file0.func.inner",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_nestedfunctiondefinition/file0.py",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 7,
+            "name": "file0.func.inner.inner_inner",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_nestedfunctiondefinition/file0.py",
+            "line": 4,
+            "start_column": 9,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 5,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 7,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 5,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 5,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "nestedfunctiondefinition"
+}

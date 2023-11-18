@@ -1,0 +1,127 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_annotation",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_annotation.ClassA",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "test_annotation.int_identity",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 9,
+            "name": "test_annotation.x",
+            "type": "GLOBAL_VARIABLE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "line": 7,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 12,
+            "name": "test_annotation.ClassB",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "line": 9,
+            "start_column": 1,
+            "end_column": 17
+        },
+        {
+            "id": 14,
+            "name": "test_annotation.ClassB.field",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_annotate/_annotation/test_annotation.py",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 9
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 12,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 12,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "annotation"
+}

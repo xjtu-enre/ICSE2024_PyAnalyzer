@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_classdefinition/_globalclassdefinition/test_global_class.py,-1
+1,Class,Base,0
+2,Function,__init__,1

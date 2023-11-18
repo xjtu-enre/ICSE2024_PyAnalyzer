@@ -1,0 +1,58 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall\\test_first_order_func_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall\\test_first_order_func_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall.foo",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall\\test_first_order_func_call.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall.acceptor",
+        "id": 5,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderfunctioncall\\test_first_order_func_call.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 5
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      }
+    ]
+  }
+]

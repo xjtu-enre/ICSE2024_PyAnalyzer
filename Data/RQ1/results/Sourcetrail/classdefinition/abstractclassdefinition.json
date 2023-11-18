@@ -1,0 +1,453 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_abstract_class",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "abc",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "abc.abstractmethod",
+            "type": "FUNCTION",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "abc.ABCMeta",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "abc.ABC",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 14,
+            "name": "test_abstract_class.A",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 17,
+            "name": "test_abstract_class.B",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 8,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 19,
+            "name": "test_abstract_class.B.Inner",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 9,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 21,
+            "name": "test_abstract_class.B.Inner.__metaclass__",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 10,
+            "start_column": 9,
+            "end_column": 21
+        },
+        {
+            "id": 24,
+            "name": "unsolved symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 26,
+            "name": "test_abstract_class.B.Inner.__init__",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 13,
+            "start_column": 9,
+            "end_column": 0
+        },
+        {
+            "id": 29,
+            "name": "builtins",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 30,
+            "name": "builtins.object",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 32,
+            "name": "builtins.object.__class__",
+            "type": "FUNCTION",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 35,
+            "name": "builtins.type",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 37,
+            "name": "builtins.type.__name__",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 40,
+            "name": "builtins.NotImplementedError",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 43,
+            "name": "builtins.NotImplementedError.__init__",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 46,
+            "name": "test_abstract_class.B.Inner.__new__",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 18,
+            "start_column": 9,
+            "end_column": 0
+        },
+        {
+            "id": 53,
+            "name": "test_abstract_class.B.Inner.func1",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 23,
+            "start_column": 9,
+            "end_column": 0
+        },
+        {
+            "id": 56,
+            "name": "test_abstract_class.B.Inner.func2",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 26,
+            "start_column": 9,
+            "end_column": 0
+        },
+        {
+            "id": 60,
+            "name": "test_abstract_class.B.func3",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_classdefinition/_abstractclassdefinition/test_abstract_class.py",
+            "line": 30,
+            "start_column": 5,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 2,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 14,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 17,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 17,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 19,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 26,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 29,
+            "to": 30,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 30,
+            "to": 32,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 29,
+            "to": 35,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 35,
+            "to": 37,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 26,
+            "to": 37,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 29,
+            "to": 40,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 26,
+            "to": 40,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 40,
+            "to": 43,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 26,
+            "to": 43,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 46,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 46,
+            "to": 37,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 46,
+            "to": 40,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 46,
+            "to": 43,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 53,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 56,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 17,
+            "to": 60,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 19,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 26,
+            "to": 32,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 46,
+            "to": 32,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 17,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "abstractclassdefinition"
+}

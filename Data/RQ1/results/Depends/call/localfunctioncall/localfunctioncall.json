@@ -1,0 +1,78 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall\\test_local_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall\\test_local_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall\\test_local_call.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall.func.inner",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall\\test_local_call.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall.func.inner.inner_inner",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_localfunctioncall\\test_local_call.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Call",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Call",
+        "src": 3,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 3,
+        "dest": 4
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      }
+    ]
+  }
+]

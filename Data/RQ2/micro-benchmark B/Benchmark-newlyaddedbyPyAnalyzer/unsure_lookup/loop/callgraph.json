@@ -1,0 +1,8 @@
+{
+  "main": [
+    "main.func",
+    "main.foo"
+  ],
+  "main.func": [],
+  "main.foo": []
+}

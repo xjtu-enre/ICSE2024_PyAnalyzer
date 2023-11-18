@@ -1,0 +1,199 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_firstorderfunctioncall.test_first_order_func_call",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_firstorderfunctioncall/test_first_order_func_call.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_firstorderfunctioncall.test_first_order_func_call.foo",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": 2,
+                "startColumn": 4,
+                "endColumn": 7
+            },
+            "signatures": [
+                "def foo() -> Any"
+            ],
+            "exported": true,
+            "file": "_firstorderfunctioncall/test_first_order_func_call.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_firstorderfunctioncall.test_first_order_func_call.acceptor",
+            "category": "Function",
+            "location": {
+                "startLine": 4,
+                "endLine": 5,
+                "startColumn": 4,
+                "endColumn": 7
+            },
+            "signatures": [
+                "def acceptor(f: _firstorderfunctioncall.test_first_order_func_call.foo) -> Any"
+            ],
+            "exported": true,
+            "file": "_firstorderfunctioncall/test_first_order_func_call.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_firstorderfunctioncall.test_first_order_func_call.acceptor.f",
+            "category": "Parameter",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 13,
+                "endColumn": 14
+            },
+            "type": "_firstorderfunctioncall.test_first_order_func_call.foo",
+            "exported": false,
+            "file": "_firstorderfunctioncall/test_first_order_func_call.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_firstorderfunctioncall",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_firstorderfunctioncall"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_functiondefinition/_nestedfunctiondefinition/file0.py,-1
+1,Function,func,0
+2,Function,inner,1

@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "abstractfunctiondefinition-out\\abstractfunctiondefinition-sdsm",
+  "variables" : [ "test_abstract_function.Foo.foo1", "test_abstract_function.Foo.foo2", "test_abstract_function.Foo.foo3", "test_abstract_function.Foo.__init__" ],
+  "cells" : [ ]
+}

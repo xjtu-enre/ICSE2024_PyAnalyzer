@@ -1,0 +1,398 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f1",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": 4,
+                "startColumn": 4,
+                "endColumn": 15
+            },
+            "signatures": [
+                "def f1(a: arg) -> _testdecoratorcall.test_decorator_call.f1.wrap"
+            ],
+            "exported": true,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f1.a",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "type": "arg",
+            "exported": false,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f2",
+            "category": "Function",
+            "location": {
+                "startLine": 6,
+                "endLine": 7,
+                "startColumn": 4,
+                "endColumn": 12
+            },
+            "signatures": [
+                "def f2(f: Any) -> Any"
+            ],
+            "exported": true,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f2.f",
+            "category": "Parameter",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.func",
+            "category": "Function",
+            "location": {
+                "startLine": 11,
+                "endLine": 11,
+                "startColumn": 4,
+                "endColumn": 16
+            },
+            "signatures": [
+                "def func() -> Any"
+            ],
+            "exported": true,
+            "file": "_testdecoratorcall/test_decorator_call.py",
+            "modifiers": {
+                "decorators": [
+                    "@_testdecoratorcall.test_decorator_call.f2",
+                    "@_testdecoratorcall.test_decorator_call.f1"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f1.wrap",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": 3,
+                "startColumn": 8,
+                "endColumn": 16
+            },
+            "signatures": [
+                "def wrap(f: Any) -> Any"
+            ],
+            "exported": true,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_testdecoratorcall.test_decorator_call.f1.wrap.f",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 13,
+                "endColumn": 14
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_testdecoratorcall/test_decorator_call.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_testdecoratorcall",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_testdecoratorcall"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "arg",
+            "category": "UnknownVar",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": false
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 6,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 7,
+            "dest": 6,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 10,
+            "dest": 11,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 11,
+            "dest": 10,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

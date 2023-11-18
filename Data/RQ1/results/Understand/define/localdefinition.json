@@ -1,0 +1,256 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/define/localdefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_localdefinition\\test_nested_define.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "test_nested_define.func",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Function",
+            "name": "inner",
+            "qualified_name": "test_nested_define.func.inner",
+            "line": 5,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Function",
+            "name": "inner_inner",
+            "qualified_name": "test_nested_define.func.inner.inner_inner",
+            "line": 8,
+            "start_column": 13,
+            "end_column": 24,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1184,
+            "type": "python Function",
+            "name": "func2",
+            "qualified_name": "test_nested_define.func2",
+            "line": 20,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Variable Local",
+            "name": "t1",
+            "qualified_name": "test_nested_define.func2.t1",
+            "line": 28,
+            "start_column": 5,
+            "end_column": 7,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1186,
+            "type": "python Variable Local",
+            "name": "t2",
+            "qualified_name": "test_nested_define.func2.t2",
+            "line": 28,
+            "start_column": 9,
+            "end_column": 11,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1187,
+            "type": "python Variable Local",
+            "name": "t3",
+            "qualified_name": "test_nested_define.func2.t3",
+            "line": 33,
+            "start_column": 6,
+            "end_column": 8,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1188,
+            "type": "python Variable Local",
+            "name": "x",
+            "qualified_name": "test_nested_define.func2.x",
+            "line": 22,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1189,
+            "type": "python Variable Local",
+            "name": "y",
+            "qualified_name": "test_nested_define.func2.y",
+            "line": 25,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1184,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 20,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 5,
+            "column": 9
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 18,
+            "column": 5
+        },
+        {
+            "from": 1182,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 8,
+            "column": 13
+        },
+        {
+            "from": 1182,
+            "to": 1181,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 13,
+            "column": 9
+        },
+        {
+            "from": 1182,
+            "to": 1183,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 16,
+            "column": 9
+        },
+        {
+            "from": 1183,
+            "to": 1181,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 1184,
+            "to": 1188,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 22,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1189,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 25,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 28,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1186,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 28,
+            "column": 9
+        },
+        {
+            "from": 1184,
+            "to": 1187,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 33,
+            "column": 6
+        },
+        {
+            "from": 1184,
+            "to": 1188,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 22,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1189,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 25,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1185,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 28,
+            "column": 5
+        },
+        {
+            "from": 1184,
+            "to": 1186,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 28,
+            "column": 9
+        },
+        {
+            "from": 1184,
+            "to": 1187,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 33,
+            "column": 6
+        },
+        {
+            "from": 1189,
+            "to": 701,
+            "type": "Python Typed",
+            "inFile": 1180,
+            "line": 25,
+            "column": 8
+        }
+    ]
+}

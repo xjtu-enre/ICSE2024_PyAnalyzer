@@ -1,0 +1,396 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_classmethodcall.test_method_call",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": 8,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class ClassA"
+            ],
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassA.method",
+            "category": "Method",
+            "location": {
+                "startLine": 5,
+                "endLine": 8,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def method(self: _classmethodcall.test_method_call.ClassA) -> Any"
+            ],
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassA.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "type": "_classmethodcall.test_method_call.ClassA",
+            "exported": false,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": 15,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class ClassB"
+            ],
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassB.method",
+            "category": "Method",
+            "location": {
+                "startLine": 12,
+                "endLine": 15,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def method(self: _classmethodcall.test_method_call.ClassB) -> Any"
+            ],
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_classmethodcall.test_method_call.ClassB.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 12,
+                "endLine": 12,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "type": "_classmethodcall.test_method_call.ClassB",
+            "exported": false,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_classmethodcall.test_method_call.instance",
+            "category": "Variable",
+            "location": {
+                "startLine": 16,
+                "endLine": 16,
+                "startColumn": 0,
+                "endColumn": 8
+            },
+            "type": "_classmethodcall.test_method_call.ClassA",
+            "exported": true,
+            "file": "_classmethodcall/test_method_call.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_classmethodcall",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_classmethodcall"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 19,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 8,
+            "dest": 7,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 9,
+            "dest": 8,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

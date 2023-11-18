@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "testdecoratorcall-out\\testdecoratorcall-sdsm",
+  "variables" : [ "test_decorator_call.f1", "test_decorator_call.f1.wrap", "test_decorator_call.f2", "test_decorator_call.func" ],
+  "cells" : [ ]
+}

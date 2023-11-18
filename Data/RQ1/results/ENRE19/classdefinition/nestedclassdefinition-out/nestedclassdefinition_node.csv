@@ -1,0 +1,7 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_classdefinition/_nestedclassdefinition/file0.py,-1
+1,Class,Out,0
+2,Class,Inner1,1
+3,Function,__init__,1
+4,Function,out_func,0
+5,Class,Inner2,4

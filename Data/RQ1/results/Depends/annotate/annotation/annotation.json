@@ -1,0 +1,113 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation.ClassA",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation.int_identity",
+        "id": 5,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation.x",
+        "id": 12,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation.ClassB",
+        "id": 18,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation.ClassB.field",
+        "id": 20,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_annotate\\_annotation\\test_annotation.py",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 12
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Contain",
+        "src": 18,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 18,
+        "dest": 20
+      },
+      {
+        "type": "Use",
+        "src": 18,
+        "dest": 2
+      }
+    ]
+  }
+]

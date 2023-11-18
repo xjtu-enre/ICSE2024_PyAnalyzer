@@ -1,0 +1,178 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/variabledefinition/iterationvariable.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_iterationvariable\\test_iteration_variable.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Variable Global",
+            "name": "a",
+            "qualified_name": "test_iteration_variable.a",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Variable Global",
+            "name": "b",
+            "qualified_name": "test_iteration_variable.b",
+            "line": 3,
+            "start_column": 8,
+            "end_column": 9,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "test_iteration_variable.func",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1184,
+            "type": "python Variable Local",
+            "name": "c",
+            "qualified_name": "test_iteration_variable.func.c",
+            "line": 7,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Variable Local",
+            "name": "d",
+            "qualified_name": "test_iteration_variable.func.d",
+            "line": 7,
+            "start_column": 12,
+            "end_column": 13,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1186,
+            "type": "python Variable Global",
+            "name": "x",
+            "qualified_name": "test_iteration_variable.x",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1186,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 8
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1186,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 3,
+            "column": 8
+        },
+        {
+            "from": 1180,
+            "to": 1186,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 3,
+            "column": 13
+        },
+        {
+            "from": 1183,
+            "to": 1184,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 7,
+            "column": 9
+        },
+        {
+            "from": 1183,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 7,
+            "column": 12
+        },
+        {
+            "from": 1183,
+            "to": 1184,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 7,
+            "column": 9
+        },
+        {
+            "from": 1183,
+            "to": 1185,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 7,
+            "column": 12
+        },
+        {
+            "from": 1183,
+            "to": 1186,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 7,
+            "column": 17
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "main": [
+        "main.create_class.Simple.method",
+        "main.create_class.fun",
+        "main.create_class"
+    ]
+}

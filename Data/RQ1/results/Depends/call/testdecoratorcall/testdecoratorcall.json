@@ -1,0 +1,83 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall.f1",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall.f1.wrap",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall.f2",
+        "id": 12,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall.func",
+        "id": 19,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_testdecoratorcall\\test_decorator_call.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Annotation",
+        "src": 19,
+        "dest": 2
+      },
+      {
+        "type": "Annotation",
+        "src": 19,
+        "dest": 12
+      }
+    ]
+  }
+]

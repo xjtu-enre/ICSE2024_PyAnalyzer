@@ -1,0 +1,349 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_iterationvariable.test_iteration_variable",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "type": "list[]",
+            "exported": true,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.a",
+            "category": "Variable",
+            "location": {
+                "startLine": 3,
+                "endLine": 3,
+                "startColumn": 4,
+                "endColumn": 5
+            },
+            "type": "list[]",
+            "exported": true,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.b",
+            "category": "Variable",
+            "location": {
+                "startLine": 3,
+                "endLine": 3,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.func",
+            "category": "Function",
+            "location": {
+                "startLine": 6,
+                "endLine": 8,
+                "startColumn": 4,
+                "endColumn": 9
+            },
+            "signatures": [
+                "def func() -> Any"
+            ],
+            "exported": true,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.func.c",
+            "category": "Variable",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 8,
+                "endColumn": 9
+            },
+            "type": "list[]",
+            "exported": false,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_iterationvariable.test_iteration_variable.func.d",
+            "category": "Variable",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 11,
+                "endColumn": 12
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_iterationvariable/test_iteration_variable.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_iterationvariable",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_iterationvariable"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 2,
+            "dest": 10,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 5,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 10,
+            "dest": 12,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 10,
+            "dest": 12,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 10,
+            "dest": 14,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 10,
+            "dest": 14,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 12,
+            "dest": 10,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 14,
+            "dest": 10,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "globalimport-out\\globalimport-sdsm",
+  "variables" : [ "module_a.func" ],
+  "cells" : [ ]
+}

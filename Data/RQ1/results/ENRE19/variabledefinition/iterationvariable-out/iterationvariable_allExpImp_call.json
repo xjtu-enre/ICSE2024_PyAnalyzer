@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "iterationvariable-out\\iterationvariable-sdsm",
+  "variables" : [ "test_iteration_variable.func" ],
+  "cells" : [ ]
+}

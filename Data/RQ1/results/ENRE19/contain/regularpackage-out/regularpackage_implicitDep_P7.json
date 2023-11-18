@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "regularpackage-out\\regularpackage-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/module_a.py", "D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/package_b/__init__.py", "D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/__init__.py" ],
+  "cells" : [ ]
+}

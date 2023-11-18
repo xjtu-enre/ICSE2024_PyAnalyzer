@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "globalclassdefinition-out\\globalclassdefinition-sdsm",
+  "variables" : [ "test_global_class.Base.__init__" ],
+  "cells" : [ ]
+}

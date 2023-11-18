@@ -1,0 +1,7 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_inherit/_firstclassclassinherit/test_first_order_class_inherit.py,-1
+1,Function,create_class,0
+2,Class,Difficult,1
+3,Variable,cls,0
+4,Class,SubClass,0
+5,Function,__init__,4

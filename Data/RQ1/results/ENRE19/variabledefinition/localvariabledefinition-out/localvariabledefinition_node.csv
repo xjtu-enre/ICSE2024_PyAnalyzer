@@ -1,0 +1,7 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_variabledefinition/_localvariabledefinition/test_local_variable.py,-1
+1,Function,func,0
+4,Variable,x,1
+5,Variable,t1,1
+6,Variable,t2,1
+7,Function,inner,1

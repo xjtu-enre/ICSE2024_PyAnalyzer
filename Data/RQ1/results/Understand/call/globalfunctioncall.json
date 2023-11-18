@@ -1,0 +1,48 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/call/globalfunctioncall.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_globalfunctioncall\\test_global_function_call.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Function",
+            "name": "func1",
+            "qualified_name": "test_global_function_call.func1",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 10,
+            "column": 1
+        },
+        {
+            "from": 1181,
+            "to": 1181,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 5,
+            "column": 5
+        }
+    ]
+}

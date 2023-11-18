@@ -1,0 +1,271 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous.(1)",
+            "category": "LambdaFunction",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 12
+            },
+            "signatures": [
+                "def lambda() -> Any"
+            ],
+            "exported": false,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous.foo",
+            "category": "Function",
+            "location": {
+                "startLine": 3,
+                "endLine": 4,
+                "startColumn": 4,
+                "endColumn": 16
+            },
+            "signatures": [
+                "def foo() -> Any"
+            ],
+            "exported": true,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 6,
+                "endLine": 7,
+                "startColumn": 6,
+                "endColumn": 17
+            },
+            "signatures": [
+                "class ClassA"
+            ],
+            "exported": true,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous.ClassA.(7)",
+            "category": "LambdaFunction",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 4,
+                "endColumn": 17
+            },
+            "signatures": [
+                "def lambda() -> Any"
+            ],
+            "exported": false,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_anonymousfunctiondefinition.test_define_anonymous.foo.(4)",
+            "category": "LambdaFunction",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 4,
+                "endColumn": 16
+            },
+            "signatures": [
+                "def lambda() -> Any"
+            ],
+            "exported": false,
+            "file": "_anonymousfunctiondefinition/test_define_anonymous.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_anonymousfunctiondefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_anonymousfunctiondefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 8,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 6,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

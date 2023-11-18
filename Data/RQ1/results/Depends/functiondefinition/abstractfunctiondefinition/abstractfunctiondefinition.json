@@ -1,0 +1,83 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition.Foo",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition.Foo.foo1",
+        "id": 5,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition.Foo.foo2",
+        "id": 7,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition.Foo.foo3",
+        "id": 9,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_abstractfunctiondefinition\\test_abstract_function.py",
+        "startLine": 13,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Parameter",
+        "src": 5,
+        "dest": 6
+      },
+      {
+        "type": "Parameter",
+        "src": 7,
+        "dest": 8
+      },
+      {
+        "type": "Parameter",
+        "src": 9,
+        "dest": 10
+      }
+    ]
+  }
+]

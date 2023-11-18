@@ -1,0 +1,100 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/set/setlocalleveldefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_setlocalleveldefinition\\test_set_local.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Function",
+            "name": "foo",
+            "qualified_name": "test_set_local.foo",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Variable Local",
+            "name": "x",
+            "qualified_name": "test_set_local.foo.x",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Parameter",
+            "name": "y",
+            "qualified_name": "test_set_local.foo.y",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 700,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 1183,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 4,
+            "column": 5
+        }
+    ]
+}

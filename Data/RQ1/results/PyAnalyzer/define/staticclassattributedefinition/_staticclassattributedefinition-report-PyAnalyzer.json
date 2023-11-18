@@ -1,0 +1,947 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": 6,
+                "startColumn": 6,
+                "endColumn": 28
+            },
+            "signatures": [
+                "class Base"
+            ],
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.attribute_a",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 4,
+                "endColumn": 15
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.attribute_b",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 3,
+                "endLine": 3,
+                "startColumn": 4,
+                "endColumn": 15
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.attribute_c",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 4,
+                "endColumn": 15
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.attribute_d",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 17,
+                "endColumn": 28
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.__init__",
+            "category": "Method",
+            "location": {
+                "startLine": 5,
+                "endLine": 6,
+                "startColumn": 8,
+                "endColumn": 28
+            },
+            "signatures": [
+                "def __init__(self: _staticclassattributedefinition.test_static_class_attribute.Base) -> Any"
+            ],
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.__init__.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 17,
+                "endColumn": 21
+            },
+            "type": "_staticclassattributedefinition.test_static_class_attribute.Base",
+            "exported": false,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 15,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit",
+            "category": "Class",
+            "location": {
+                "startLine": 7,
+                "endLine": 11,
+                "startColumn": 6,
+                "endColumn": 28
+            },
+            "signatures": [
+                "class Inherit(_staticclassattributedefinition.test_static_class_attribute.Base)"
+            ],
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 16,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 14,
+                "endColumn": 18
+            },
+            "type": "_staticclassattributedefinition.test_static_class_attribute.Base",
+            "exported": false,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 18,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit.attribute_e",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 8,
+                "endLine": 8,
+                "startColumn": 4,
+                "endColumn": 15
+            },
+            "type": "Any",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 19,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit.__init__",
+            "category": "Method",
+            "location": {
+                "startLine": 9,
+                "endLine": 11,
+                "startColumn": 8,
+                "endColumn": 28
+            },
+            "signatures": [
+                "def __init__(self: _staticclassattributedefinition.test_static_class_attribute.Inherit) -> Any"
+            ],
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 20,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit.__init__.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 9,
+                "endLine": 9,
+                "startColumn": 17,
+                "endColumn": 21
+            },
+            "type": "_staticclassattributedefinition.test_static_class_attribute.Inherit",
+            "exported": false,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 21,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Base.attribute_x",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 6,
+                "endLine": -1,
+                "startColumn": 13,
+                "endColumn": -1
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": 22,
+            "qualifiedName": "builtins.super.__init__",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 10,
+                "endLine": -1,
+                "startColumn": 13,
+                "endColumn": -1
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 23,
+            "qualifiedName": "_staticclassattributedefinition.test_static_class_attribute.Inherit.attribute_f",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 11,
+                "endLine": -1,
+                "startColumn": 13,
+                "endColumn": -1
+            },
+            "type": "int",
+            "exported": true,
+            "file": "_staticclassattributedefinition/test_static_class_attribute.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "qualifiedName": "builtins.int",
+            "category": "Class",
+            "location": {
+                "startLine": 762,
+                "endLine": 833,
+                "startColumn": 0,
+                "endColumn": 96
+            },
+            "signatures": [
+                "class int(typing.SupportsInt, typing.SupportsFloat, typing.SupportsAbs)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": "251504b3cb0c18da60b83432bc16d375",
+            "qualifiedName": "builtins.super",
+            "category": "Class",
+            "location": {
+                "startLine": 998,
+                "endLine": 1003,
+                "startColumn": 0,
+                "endColumn": 64
+            },
+            "signatures": [
+                "class super(typing.nothing)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_staticclassattributedefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_staticclassattributedefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 15,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 8,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 31
+            }
+        },
+        {
+            "src": 4,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 34
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 10,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 12,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 4,
+            "dest": 12,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 4,
+            "dest": 13,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 8,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 12,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 12,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 13,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 13,
+            "dest": 14,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 13,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 13,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 27
+            }
+        },
+        {
+            "src": 13,
+            "dest": 14,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 13,
+            "dest": 21,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 13,
+            "dest": 21,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 14,
+            "dest": 13,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": 4,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 15,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 15,
+            "dest": 18,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 15,
+            "dest": 18,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 15,
+            "dest": 19,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 18,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 19,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 19,
+            "dest": 13,
+            "values": {
+                "kind": "Override"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 19,
+            "dest": 20,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 19,
+            "dest": "251504b3cb0c18da60b83432bc16d375",
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 19,
+            "dest": 22,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 19,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 27
+            }
+        },
+        {
+            "src": 19,
+            "dest": 20,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 19,
+            "dest": 23,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 19,
+            "dest": 23,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 20,
+            "dest": 19,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 21,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 22,
+            "dest": "251504b3cb0c18da60b83432bc16d375",
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 23,
+            "dest": 15,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

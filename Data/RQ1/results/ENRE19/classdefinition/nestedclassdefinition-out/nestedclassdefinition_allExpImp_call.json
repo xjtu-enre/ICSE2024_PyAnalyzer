@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "nestedclassdefinition-out\\nestedclassdefinition-sdsm",
+  "variables" : [ "file0.Out.__init__", "file0.out_func" ],
+  "cells" : [ ]
+}

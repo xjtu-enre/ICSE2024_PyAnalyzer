@@ -1,0 +1,508 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_classmethoddefinition.test_method_definition",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": 3,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class ClassA"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA.method",
+            "category": "Method",
+            "location": {
+                "startLine": 2,
+                "endLine": 3,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def method(self: _classmethoddefinition.test_method_definition.ClassA) -> Any"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "type": "_classmethoddefinition.test_method_definition.ClassA",
+            "exported": false,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 5,
+                "endLine": 7,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class ClassB"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB.method",
+            "category": "Method",
+            "location": {
+                "startLine": 6,
+                "endLine": 7,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def method(self: _classmethoddefinition.test_method_definition.ClassB) -> Any"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "type": "_classmethoddefinition.test_method_definition.ClassB",
+            "exported": false,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": 11,
+                "startColumn": 6,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class InheritClassA(_classmethoddefinition.test_method_definition.ClassA)"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 9,
+                "endLine": 9,
+                "startColumn": 20,
+                "endColumn": 26
+            },
+            "type": "_classmethoddefinition.test_method_definition.ClassA",
+            "exported": false,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA.method",
+            "category": "Method",
+            "location": {
+                "startLine": 10,
+                "endLine": 11,
+                "startColumn": 8,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def method(self: _classmethoddefinition.test_method_definition.InheritClassA) -> Any"
+            ],
+            "exported": true,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "type": "_classmethoddefinition.test_method_definition.InheritClassA",
+            "exported": false,
+            "file": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_classmethoddefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_classmethoddefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 10,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 5,
+            "dest": 10,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 8,
+            "dest": 7,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 9,
+            "dest": 8,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 4,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 10,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 12,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 12,
+            "dest": 10,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 12,
+            "dest": 5,
+            "values": {
+                "kind": "Override"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 12,
+            "dest": 13,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 13,
+            "dest": 12,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

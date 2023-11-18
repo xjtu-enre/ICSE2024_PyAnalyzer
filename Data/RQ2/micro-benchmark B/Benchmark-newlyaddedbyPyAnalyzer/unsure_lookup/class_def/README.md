@@ -1,0 +1,1 @@
+`is_ascii` which is later called is either assigned as a function named `my_is_ascii` or defined in the true branch of an if statement.

@@ -1,0 +1,180 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "file0",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "file0.Base",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 5,
+            "name": "file0.Inherit",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 8,
+            "name": "file0.Base2",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 10,
+            "name": "file0.Inherit1",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 9,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 14,
+            "name": "file0.func",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 12,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 16,
+            "name": "file0.func.LocalInherit",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 13,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 19,
+            "name": "file0.func.LocalInherit2",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_inherit/_classinherit/file0.py",
+            "line": 16,
+            "start_column": 5,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 5,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 10,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 10,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 14,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 16,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 14,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 19,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 19,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "classinherit"
+}

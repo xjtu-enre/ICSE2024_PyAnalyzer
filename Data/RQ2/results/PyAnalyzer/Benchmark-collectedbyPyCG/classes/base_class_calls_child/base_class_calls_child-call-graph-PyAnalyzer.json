@@ -1,0 +1,442 @@
+{
+    "builtins.__namedtuple.__new__": [
+        "builtins.tuple.__new__"
+    ],
+    "builtins.__namedtuple.__getnewargs__": [
+        "builtins.tuple.__init__",
+        "builtins.tuple"
+    ],
+    "builtins.BaseException.(894)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.BaseException.(896)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.BaseException.(899)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.BaseException.(902)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.BaseException.(904)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.AttributeError.(952)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.AttributeError.(955)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(977)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(979)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(982)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(985)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(988)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.WindowsError.(991)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.int.(1340)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.int.(1343)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.int.(1346)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.int.(1349)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.classmethod.(2703)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.classmethod.(2705)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.classmethod.(2707)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.float.(3404)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.float.(3407)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.ImportError.(3617)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.ImportError.(3620)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.ImportError.(3623)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3648)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3651)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3654)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3657)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3660)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3663)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3666)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.SyntaxError.(3669)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4080)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4083)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4086)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4090)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4093)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4096)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4100)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4104)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4107)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4110)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4114)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.memoryview.(4118)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.NameError.(4138)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.property": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.property.(4318)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.property.(4320)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.property.(4322)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.property.(4324)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.range": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.range.(4421)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.range.(4423)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.range.(4425)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.slice": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.staticmethod": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.staticmethod.(4852)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.staticmethod.(4854)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.staticmethod.(4856)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.StopAsyncIteration": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.StopIteration": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.StopIteration.(4878)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.str": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.super": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.super.(5513)": [
+        "builtins.type.__init__",
+        "builtins.type"
+    ],
+    "builtins.super.(5519)": [
+        "builtins.type.__init__",
+        "builtins.type"
+    ],
+    "builtins.super.(5525)": [
+        "builtins.type.__init__",
+        "builtins.type"
+    ],
+    "builtins.SyntaxWarning": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.SystemError": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.SystemExit": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.SystemExit.(5565)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.tuple": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.type": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.type.(5771)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.type.(5773)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.TypeError": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.ValueError": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.UnicodeError": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.UnicodeDecodeError": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.UnicodeDecodeError.(5848)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeDecodeError.(5851)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeDecodeError.(5854)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeDecodeError.(5857)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeDecodeError.(5860)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeEncodeError": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.UnicodeEncodeError.(5879)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeEncodeError.(5882)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeEncodeError.(5885)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeEncodeError.(5888)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeEncodeError.(5891)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeTranslateError": [
+        "builtins.staticmethod.__init__",
+        "builtins.property.__init__",
+        "builtins.staticmethod",
+        "builtins.property"
+    ],
+    "builtins.UnicodeTranslateError.(5910)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeTranslateError.(5913)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeTranslateError.(5916)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeTranslateError.(5919)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeTranslateError.(5922)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "builtins.UnicodeWarning": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.UserWarning": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.ZeroDivisionError": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.zip": [
+        "builtins.staticmethod.__init__",
+        "builtins.staticmethod"
+    ],
+    "builtins.__loader__": [
+        "builtins.property.__init__",
+        "builtins.property"
+    ],
+    "builtins.__loader__.(6066)": [
+        "builtins.object.__init__",
+        "builtins.object"
+    ],
+    "base_class_calls_child.main": [
+        "base_class_calls_child.main.B.__init__",
+        "base_class_calls_child.main.C.__init__",
+        "base_class_calls_child.main.A.func"
+    ],
+    "base_class_calls_child.main.A.func": [
+        "base_class_calls_child.main.B.func2",
+        "base_class_calls_child.main.C.func2"
+    ]
+}

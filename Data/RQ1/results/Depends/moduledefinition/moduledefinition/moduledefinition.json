@@ -1,0 +1,48 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_moduledefinition\\_moduledefinition\\test_module_a.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_moduledefinition\\_moduledefinition\\test_module_a.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_moduledefinition\\_moduledefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_moduledefinition\\_moduledefinition\\test_module_b.py",
+        "id": 2,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_moduledefinition\\_moduledefinition\\test_module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Import",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Import",
+        "src": 2,
+        "dest": 0
+      }
+    ]
+  }
+]

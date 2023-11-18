@@ -1,0 +1,139 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_moduledefinition.test_module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_moduledefinition/test_module_a.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_moduledefinition.test_module_a.b",
+            "category": "Alias",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 24,
+                "endColumn": -1
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_moduledefinition/test_module_a.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_moduledefinition.test_module_b",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_moduledefinition/test_module_b.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_moduledefinition.test_module_b.a",
+            "category": "Alias",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 24,
+                "endColumn": -1
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_moduledefinition/test_module_b.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_moduledefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_moduledefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "Import"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Import"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 3,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

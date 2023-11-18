@@ -1,0 +1,178 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Base.static_attr",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Base.__init__",
+        "id": 10,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Inherit",
+        "id": 19,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Inherit.__init__",
+        "id": 22,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Inherit.use_attribute",
+        "id": 28,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 11,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Foo",
+        "id": 48,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 18,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute.Foo.static_attr",
+        "id": 50,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_useclassattribute\\test_use_class_attr.py",
+        "startLine": 19,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Parameter",
+        "src": 10,
+        "dest": 11
+      },
+      {
+        "type": "Extend",
+        "src": 19,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 19,
+        "dest": 2
+      },
+      {
+        "type": "Parameter",
+        "src": 22,
+        "dest": 23
+      },
+      {
+        "type": "Call",
+        "src": 22,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 22,
+        "dest": 10
+      },
+      {
+        "type": "Parameter",
+        "src": 28,
+        "dest": 29
+      },
+      {
+        "type": "Use",
+        "src": 28,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 48,
+        "dest": 50
+      },
+      {
+        "type": "Use",
+        "src": 48,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 48,
+        "dest": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/anonymousfunction/anonymousfunctiondefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_anonymousfunctiondefinition\\test_anonymous.py"
+        },
+        {
+            "id": 1181,
+            "type": "python LambdaParameter",
+            "name": "test_anonymous.py.t",
+            "qualified_name": "D:\\test\\data\\tests\\cases\\_anonymousfunction\\_anonymousfunctiondefinition\\test_anonymous.py.t",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 27,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 1,
+            "column": 11
+        }
+    ]
+}

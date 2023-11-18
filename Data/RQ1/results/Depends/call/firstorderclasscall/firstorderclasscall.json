@@ -1,0 +1,173 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.base",
+        "id": 6,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.create_class",
+        "id": 13,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.create_class.Difficult",
+        "id": 14,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.create_class.Difficult.test",
+        "id": 15,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.cls",
+        "id": 23,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 12,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall.difficult_obj",
+        "id": 31,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_call\\_firstorderclasscall\\test_first_order_class_call.py",
+        "startLine": 14,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "candidateTypes",
+        "id": 41,
+        "entityType": "CandidateTypes",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Contain",
+        "src": 0,
+        "dest": 14
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 6
+      },
+      {
+        "type": "Create",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 23
+      },
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 13
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 31
+      },
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 23
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 31
+      },
+      {
+        "type": "Return",
+        "src": 13,
+        "dest": 14
+      },
+      {
+        "type": "Use",
+        "src": 13,
+        "dest": 14
+      },
+      {
+        "type": "Parameter",
+        "src": 15,
+        "dest": 16
+      }
+    ]
+  }
+]

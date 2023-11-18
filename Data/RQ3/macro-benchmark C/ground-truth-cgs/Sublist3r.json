@@ -1,0 +1,632 @@
+{
+  "multiprocessing.freeze_support": [],
+  "sublist3r.YahooEnum.__init__": [
+	  "sublist3r.enumratorBaseThreaded.__init__",
+	  "<builtin>.super"
+  ],
+  "sublist3r.no_color": [],
+  "sublist3r.subdomain_sorting_key": [
+	  "<**PyStr**>.split"
+  ],
+  "subbrute.subbrute.lookup.get_ns": [
+	  "queue.Queue.get_nowait",
+	  "queue.Queue.put"
+  ],
+  "signal.signal": [],
+  "sublist3r.GoogleEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.sub",
+    "re.findall",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.strip",
+    "<**PyList**>.append",
+    "<builtin>.list"
+  ],
+  "sublist3r.enumratorBase.print_": [
+	  "<builtin>.print"
+  ],
+  "sublist3r.YahooEnum.should_sleep": [],
+  "sublist3r": [
+    "colorama.init",
+    "sublist3r.interactive",
+    "win_unicode_console.enable",
+    "sys.platform.startswith",
+    "requests.packages.urllib3.disable_warnings",
+    "<builtin>.print"
+  ],
+  "sublist3r.CrtSearch.__init__": [
+    "threading.Lock",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<builtin>.super"
+  ],
+  "sublist3r.enumratorBaseThreaded.__init__": [
+    "multiprocessing.Process.__init__",
+    "sublist3r.enumratorBase.__init__"
+  ],
+  "colorama.init": [],
+  "multiprocessing.Manager": [],
+  "sublist3r.BaiduEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "sublist3r.BaiduEnum.findsubs",
+    "re.sub",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<builtin>.list",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.strip",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.enumratorBase.get_response": [
+	  "<builtin>.hasattr"
+  ],
+  "subbrute.subbrute.error": [
+    "sys.stderr.write",
+    "sys.exit",
+    "<builtin>.str"
+  ],
+  "sublist3r.DNSdumpster.extract_domains": [
+    "re.compile",
+    "re.findall",
+    "<builtin>.list",
+    "<builtin>.set",
+    "<**PyStr**>.strip",
+    "<**PyStr**>.endswith",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.BaiduEnum.should_sleep": [
+    "random.randint",
+    "time.sleep"
+  ],
+  "subbrute.subbrute.extract_hosts": [
+    "re.findall",
+    "<**PyStr**>.rstrip",
+    "<**PyStr**>.endswith",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.Virustotal.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "<**PyStr**>.endswith",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.enumratorBase.should_sleep": [],
+  "sublist3r.BaiduEnum.__init__": [
+    "sublist3r.enumratorBaseThreaded.__init__"
+  ],
+  "sublist3r.enumratorBaseThreaded.run": [
+    "sublist3r.enumratorBase.enumerate",
+    "<**PyList**>.append"
+  ],
+  "random.shuffle": [],
+  "sublist3r.BingEnum.generate_query": [
+	  "<**PyStr**>.join",
+	  "<**PyStr**>.format"
+  ],
+  "subbrute.subbrute.lookup.get_ns_blocking": [
+    "subbrute.subbrute.trace",
+    "queue.Queue.get",
+    "queue.Queue.put"
+  ],
+  "sublist3r.CrtSearch.req": [
+    "sublist3r.enumratorBase.get_response",
+    "requests.Session.get"
+  ],
+  "sublist3r.BingEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.sub",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.strip",
+    "<**PyList**>.append",
+    "<builtin>.list"
+  ],
+  "sublist3r.parse_args": [
+    "argparse.ArgumentParser",
+    "argparse.add_argument",
+    "argparse.parse_args"
+  ],
+  "sublist3r.GoogleEnum.check_response_errors": [
+    "sublist3r.enumratorBase.print_",
+    "<builtin>.type"
+  ],
+  "sublist3r.CrtSearch.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.findall",
+    "<**PyStr**>.strip",
+    "<**PyStr**>.endswith",
+    "<**PyList**>.append"
+  ],
+  "multiprocessing.Process.__init__": [],
+  "subbrute.subbrute.lookup.__init__": [
+    "subbrute.subbrute.signal_init",
+    "multiprocessing.Process.__init__",
+    "dns.resolver.Resolver"
+  ],
+  "sys.exit": [],
+  "sublist3r.NetcraftEnum.__init__": [
+    "threading.Lock",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<builtin>.super"
+  ],
+  "subbrute.subbrute.extract_subdomains.<lambda1>": [],
+  "sublist3r.BaiduEnum.findsubs": [
+    "collections.Counter",
+    "collections.Counter.pop",
+    "<builtin>.max"
+  ],
+  "os.path.join": [],
+  "threading.Thread": [],
+  "requests.Session": [],
+  "sublist3r.enumratorBase.enumerate": [
+    "sublist3r.enumratorBase.check_max_pages",
+    "sublist3r.enumratorBase.should_sleep",
+    "sublist3r.enumratorBase.extract_domains",
+    "sublist3r.enumratorBase.generate_query",
+    "sublist3r.enumratorBase.check_max_subdomains",
+    "sublist3r.enumratorBase.send_req",
+    "sublist3r.enumratorBase.get_page",
+    "sublist3r.enumratorBase.check_response_errors",
+    "<**PyList**>.count"
+  ],
+  "sublist3r.YahooEnum.generate_query": [
+	  "<**PyStr**>.join",
+	  "<**PyStr**>.format"
+  ],
+  "sublist3r.PassiveDNS.extract_domains": [
+    "json.loads",
+    "sublist3r.enumratorBase.print_",
+    "<**PyList**>.append"
+  ],
+  "subbrute.subbrute.trace": [
+    "sys.stderr.write",
+    "<builtin>.str"
+  ],
+  "sublist3r.CrtSearch.enumerate": [
+    "sublist3r.CrtSearch.req",
+    "sublist3r.CrtSearch.extract_domains",
+    "<**PyStr**>.format"
+  ],
+  "sublist3r.ThreatCrowd.extract_domains": [
+    "json.loads",
+    "sublist3r.enumratorBase.print_",
+    "<**PyStr**>.strip",
+    "<**PyStr**>.endswith",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.GoogleEnum.should_sleep": [
+    "time.sleep"
+  ],
+  "sys.platform.startswith": [],
+  "sublist3r.enumratorBase.send_req": [
+    "sublist3r.enumratorBase.get_response",
+    "<**PyStr**>.format",
+    "requests.Session.get"
+  ],
+  "re.findall": [],
+  "sublist3r.portscan.run": [
+    "threading.Thread",
+    "threading.start"
+  ],
+  "subbrute.subbrute.verify_nameservers.run": [
+    "sys.stderr.write",
+    "random.shuffle",
+    "subbrute.subbrute.verify_nameservers.verify",
+    "queue.Queue.put"
+  ],
+  "sublist3r.parser_error": [
+    "sys.exit",
+    "sublist3r.banner",
+    "<builtin>.print"
+  ],
+  "sublist3r.Virustotal.__init__": [
+    "threading.Lock",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<**PyStr**>.format",
+    "<builtin>.super"
+  ],
+  "sublist3r.PassiveDNS.req": [
+    "sublist3r.enumratorBase.get_response",
+    "requests.Session.get"
+  ],
+  "json.loads": [],
+  "requests.packages.urllib3.disable_warnings": [],
+  "sublist3r.PassiveDNS.enumerate": [
+    "sublist3r.PassiveDNS.extract_domains",
+    "sublist3r.PassiveDNS.req",
+    "<**PyStr**>.format"
+  ],
+  "sublist3r.BaiduEnum.check_response_errors": [],
+  "sublist3r.DNSdumpster.req": [
+    "sublist3r.enumratorBase.print_",
+    "sublist3r.enumratorBase.get_response",
+    "<builtin>.dict",
+    "requests.Session.get",
+    "requests.Session.post"
+  ],
+  "subbrute.subbrute.verify_nameservers.find_wildcards": [
+    "uuid.uuid4",
+    "subbrute.subbrute.trace",
+    "dns.resolver.Resolver.query",
+    "<builtin>.len",
+    "<builtin>.str",
+    "<builtin>.type"
+  ],
+  "sublist3r.NetcraftEnum.req": [
+    "sublist3r.enumratorBase.print_",
+    "requests.Session.get"
+  ],
+  "sublist3r.DNSdumpster.__init__": [
+    "threading.BoundedSemaphore",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<builtin>.super"
+  ],
+  "time.sleep": [],
+  "subbrute.subbrute.lookup.check": [
+    "subbrute.subbrute.extract_hosts",
+    "subbrute.subbrute.error",
+    "subbrute.subbrute.trace",
+    "subbrute.subbrute.lookup.get_ns_blocking",
+    "subbrute.subbrute.lookup.get_ns",
+    "dns.resolver.Resolver.query",
+    "queue.Queue.put",
+    "<builtin>.len",
+    "<builtin>.range",
+    "<builtin>.str",
+    "<builtin>.type",
+    "<**PyStr**>.rstrip"
+  ],
+  "socket.socket": [],
+  "subbrute.subbrute.check_open": [
+    "subbrute.subbrute.error",
+    "<builtin>.open",
+    "<builtin>.len",
+    "<**PyFile**>.readlines"
+  ],
+  "subbrute.subbrute.verify_nameservers.end": [],
+  "sublist3r.enumratorBase.check_max_pages": [],
+  "subbrute.subbrute": [
+    "re.compile",
+    "multiprocessing.freeze_support",
+    "os.path.dirname",
+    "os.path.join",
+    "sys.exit",
+    "subbrute.subbrute.check_open",
+    "optparse.OptionParser",
+    "optparse.OptionParser.add_option",
+    "optparse.OptionParser.parse_args",
+    "optparse.OptionParser.error",
+    "os.path.realpath",
+    "sys.platform.startswith",
+    "subbrute.subbrute.extract_subdomains",
+    "subbrute.subbrute.error",
+    "subbrute.subbrute.print_target",
+    "<builtin>.getattr",
+    "<builtin>.open",
+    "<builtin>.str",
+    "<builtin>.print",
+    "<builtin>.len",
+    "<**PyStr**>.strip"
+  ],
+  "urllib.unquote": [],
+  "sublist3r.enumratorBase.check_max_subdomains": [],
+  "subbrute.subbrute.lookup.run": [
+    "subbrute.subbrute.lookup.check",
+    "subbrute.subbrute.trace",
+    "sys.stdout.flush",
+    "subbrute.subbrute.lookup.get_ns_blocking",
+    "queue.Queue.get",
+    "queue.Queue.put",
+    "<builtin>.len",
+    "<builtin>.str",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.YahooEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.sub",
+    "re.findall",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.endswith",
+    "<**PyStr**>.strip"
+  ],
+  "subbrute.subbrute.verify_nameservers.add_nameserver": [
+    "subbrute.subbrute.trace",
+    "<builtin>.type",
+    "<builtin>.str"
+  ],
+  "sublist3r.DNSdumpster.get_csrftoken": [
+    "re.compile",
+    "re.findall",
+    "<**PyStr**>.strip"
+  ],
+  "random.randint": [],
+  "sublist3r.enumratorBase.extract_domains": [],
+  "sublist3r.AskEnum.__init__": [
+    "sublist3r.enumratorBaseThreaded.__init__"
+  ],
+  "sublist3r.Virustotal.send_req": [
+    "sublist3r.enumratorBase.print_",
+    "sublist3r.enumratorBase.get_response",
+    "requests.Session.get"
+  ],
+  "sublist3r.PassiveDNS.__init__": [
+    "threading.Lock",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<builtin>.super"
+  ],
+  "collections.Counter": [],
+  "subbrute.subbrute.killproc": [
+    "os.getpid",
+    "os.kill",
+    "<**PyStr**>.startswith",
+    "ctypes.windll.kernel32.OpenProcess",
+    "ctypes.windll.kernel32.TerminateProcess"
+  ],
+  "sublist3r.YahooEnum.get_page": [],
+  "os.path.dirname": [],
+  "subbrute.subbrute.verify_nameservers.verify": [
+    "subbrute.subbrute.verify_nameservers.add_nameserver",
+    "subbrute.subbrute.trace",
+    "subbrute.subbrute.verify_nameservers.find_wildcards",
+    "<**PyStr**>.strip",
+    "<builtin>.type"
+  ],
+  "win_unicode_console.enable": [],
+  "hashlib.sha1": [],
+  "sublist3r.write_file": [
+	  "<builtin>.print",
+	  "<builtin>.open",
+	  "<builtin>.str",
+	  "<**PyFile**>.write"
+  ],
+  "subbrute.subbrute.print_target": [
+    "subbrute.subbrute.run",
+    "<builtin>.print",
+    "<builtin>.set",
+    "<**PyList**>.append"
+  ],
+  "argparse.ArgumentParser": [],
+  "os.getpid": [],
+  "threading.BoundedSemaphore": [],
+  "sublist3r.NetcraftEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.findall",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<builtin>.list",
+    "<**PyStr**>.endswith",
+    "<**PyStr**>.strip",
+    "<**PyList**>.append"
+  ],
+  "sys.stderr.write": [],
+  "sublist3r.enumratorBase.print_banner": [
+    "sublist3r.enumratorBase.print_"
+  ],
+  "sublist3r.NetcraftEnum.enumerate": [
+    "sublist3r.NetcraftEnum.extract_domains",
+    "sublist3r.enumratorBase.get_response",
+    "sublist3r.NetcraftEnum.req",
+    "sublist3r.NetcraftEnum.get_next",
+    "sublist3r.NetcraftEnum.get_cookies",
+    "<**PyStr**>.format"
+  ],
+  "sublist3r.BingEnum.__init__": [
+    "sublist3r.enumratorBaseThreaded.__init__"
+  ],
+  "sublist3r.enumratorBase.__init__": [
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "sublist3r.enumratorBase.print_banner",
+    "requests.Session"
+  ],
+  "sublist3r.BaiduEnum.generate_query": [
+	  "<**PyStr**>.format",
+	  "<**PyStr**>.join"
+  ],
+  "sublist3r.DNSdumpster.check_host": [
+    "sublist3r.enumratorBase.print_",
+    "dns.resolver.Resolver",
+    "dns.resolver.Resolver.query",
+    "threading.BoundedSemaphore.acquire",
+    "threading.BoundedSemaphore.release",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.AskEnum.extract_domains": [
+    "sublist3r.enumratorBase.print_",
+    "re.compile",
+    "re.findall",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "<builtin>.list",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.strip",
+    "<**PyList**>.append"
+  ],
+  "sublist3r.AskEnum.generate_query": [
+	  "<**PyStr**>.join",
+	  "<**PyStr**>.format"
+  ],
+  "sublist3r.interactive": [
+    "sublist3r.main",
+    "sublist3r.parse_args",
+    "sublist3r.no_color",
+    "sublist3r.banner"
+  ],
+  "sublist3r.NetcraftEnum.create_cookies": [
+    "hashlib.sha1",
+    "urllib.unquote",
+    "urllib.parse.unquote",
+    "<builtin>.dict",
+    "<**PyStr**>.find",
+    "<**PyStr**>.split",
+    "<**PyStr**>.encode",
+    "<**PyStr**>.hexdigest"
+  ],
+  "sublist3r.ThreatCrowd.req": [
+    "sublist3r.enumratorBase.get_response",
+    "requests.Session.get"
+  ],
+  "sublist3r.ThreatCrowd.__init__": [
+    "threading.Lock",
+    "sublist3r.enumratorBaseThreaded.__init__",
+    "<builtin>.super"
+  ],
+  "sublist3r.ThreatCrowd.enumerate": [
+    "sublist3r.ThreatCrowd.req",
+    "sublist3r.ThreatCrowd.extract_domains",
+    "<**PyStr**>.format"
+  ],
+  "os.kill": [],
+  "sublist3r.NetcraftEnum.get_cookies": [
+    "sublist3r.NetcraftEnum.create_cookies"
+  ],
+  "sublist3r.portscan.port_scan": [
+    "socket.socket",
+    "socket.socket.settimeout",
+    "socket.socket.connect_ex",
+    "socket.socket.close",
+    "threading.BoundedSemaphore.acquire",
+    "threading.BoundedSemaphore.release",
+    "<builtin>.int",
+    "<builtin>.len",
+    "<builtin>.print",
+    "<**PyList**>.append"
+  ],
+  "optparse.OptionParser": [],
+  "sublist3r.AskEnum.get_page": [],
+  "subbrute.subbrute.signal_init": [
+    "signal.signal"
+  ],
+  "urlparse.urlparse": [],
+  "sublist3r.enumratorBase.get_page": [],
+  "sublist3r.enumratorBase.generate_query": [],
+  "re.compile": [],
+  "threading.Lock": [],
+  "sublist3r.portscan.__init__": [
+    "threading.BoundedSemaphore"
+  ],
+  "sublist3r.banner": [
+	  "<builtin>.print"
+  ],
+  "subbrute.subbrute.verify_nameservers.__init__": [
+    "subbrute.subbrute.signal_init",
+    "multiprocessing.Process.__init__",
+    "dns.resolver.Resolver",
+    "dns.resolver.Resolver.query"
+  ],
+  "sublist3r.main": [
+    "re.compile",
+    "re.match",
+    "os.path.dirname",
+    "os.path.join",
+    "sublist3r.portscan.__init__",
+    "sublist3r.write_file",
+    "multiprocessing.Manager",
+    "multiprocessing.Manager.list",
+    "os.path.realpath",
+    "urlparse.urlparse",
+    "urllib.parse.urlparse",
+    "sublist3r.portscan.run",
+    "subbrute.subbrute.print_target",
+    "<builtin>.set",
+    "<builtin>.list",
+    "<builtin>.len",
+    "<builtin>.sorted",
+    "<builtin>.print",
+    "<**PyStr**>.startswith",
+    "<**PyStr**>.split",
+    "<**PyStr**>.lower",
+    "<**PyList**>.append",
+    "<**PyList**>.add",
+     "sublist3r.BaiduEnum.__init__",
+     "sublist3r.YahooEnum.__init__",
+     "sublist3r.GoogleEnum.__init__",
+     "sublist3r.BingEnum.__init__",
+     "sublist3r.AskEnum.__init__",
+     "sublist3r.NetcraftEnum.__init__",
+     "sublist3r.DNSdumpster.__init__",
+     "sublist3r.Virustotal.__init__",
+     "sublist3r.ThreatCrowd.__init__",
+     "sublist3r.CrtSearch.__init__",
+     "sublist3r.PassiveDNS.__init__",
+     "multiprocessing.Process.start",
+     "multiprocessing.Process.join"
+  ],
+  "uuid.uuid4": [],
+  "sublist3r.NetcraftEnum.get_next": [
+    "re.compile",
+    "re.findall",
+    "re.sub"
+  ],
+  "multiprocessing.Queue": [],
+  "re.sub": [],
+  "sublist3r.GoogleEnum.__init__": [
+	  "sublist3r.enumratorBaseThreaded.__init__",
+	  "<builtin>.super"
+  ],
+  "subbrute.subbrute.run": [
+    "subbrute.subbrute.killproc",
+    "subbrute.subbrute.check_open",
+    "subbrute.subbrute.trace",
+    "multiprocessing.Manager",
+    "multiprocessing.Manager.dict",
+    "subbrute.subbrute.verify_nameservers.__init__",
+    "multiprocessing.Queue",
+    "multiprocessing.Queue.put",
+    "multiprocessing.Queue.get",
+    "subbrute.subbrute.lookup.__init__",
+    "subbrute.subbrute.verify_nameservers.end",
+    "multiprocessing.Process.start",
+    "<builtin>.len",
+    "<builtin>.range",
+    "<builtin>.type",
+    "<builtin>.raise",
+    "<builtin>.str",
+    "<**PyStr**>.strip",
+    "<**PyStr**>.find",
+    "sys.stderr.write"
+  ],
+  "os.path.realpath": [],
+  "sublist3r.enumratorBase.check_response_errors": [],
+  "sublist3r.DNSdumpster.enumerate": [
+    "threading.Thread",
+    "threading.Thread.start",
+    "threading.Thread.join",
+    "sublist3r.DNSdumpster.get_csrftoken",
+    "sublist3r.DNSdumpster.extract_domains",
+    "sublist3r.DNSdumpster.req"
+  ],
+  "subbrute.subbrute.extract_subdomains": [
+    "re.findall",
+    "subbrute.subbrute.trace",
+    "subbrute.subbrute.extract_subdomains.<lambda1>",
+    "<builtin>.open",
+    "<builtin>.len",
+    "<builtin>.str",
+    "<builtin>.sorted",
+    "<**PyStr**>.find",
+    "<**PyStr**>.lower",
+    "<**PyStr**>.split",
+    "<**PyDict**>.keys"
+  ],
+  "sublist3r.GoogleEnum.generate_query": [
+	  "<**PyStr**>.join",
+	  "<**PyStr**>.format"
+  ],
+  "sublist3r.Virustotal.enumerate": [
+    "json.loads",
+    "sublist3r.Virustotal.extract_domains",
+    "sublist3r.enumratorBase.print_",
+    "sublist3r.Virustotal.send_req"
+  ],
+  "sys.stdout.flush": []
+}

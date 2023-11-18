@@ -1,0 +1,8 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_use/_uselocaldefinition/test_local_use.py,-1
+1,Function,func,0
+2,Function,inner,1
+3,Function,func2,0
+5,Variable,x,3
+6,Variable,t1,3
+7,Variable,t2,3

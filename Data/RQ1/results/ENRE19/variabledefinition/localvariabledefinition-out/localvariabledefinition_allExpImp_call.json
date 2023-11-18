@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "localvariabledefinition-out\\localvariabledefinition-sdsm",
+  "variables" : [ "test_local_variable.func", "test_local_variable.func.inner" ],
+  "cells" : [ ]
+}

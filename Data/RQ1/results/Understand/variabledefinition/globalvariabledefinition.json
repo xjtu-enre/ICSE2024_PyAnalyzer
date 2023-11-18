@@ -1,0 +1,152 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/variabledefinition/globalvariabledefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_globalvariabledefinition\\test_global_variable.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Variable Global",
+            "name": "t1",
+            "qualified_name": "test_global_variable.t1",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 3,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Variable Global",
+            "name": "t2",
+            "qualified_name": "test_global_variable.t2",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 7,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Global",
+            "name": "t3",
+            "qualified_name": "test_global_variable.t3",
+            "line": 7,
+            "start_column": 2,
+            "end_column": 4,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1184,
+            "type": "python Variable Global",
+            "name": "x",
+            "qualified_name": "test_global_variable.x",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Variable Global",
+            "name": "y",
+            "qualified_name": "test_global_variable.y",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1184,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 7,
+            "column": 2
+        },
+        {
+            "from": 1180,
+            "to": 1184,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1185,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 6,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 7,
+            "column": 2
+        },
+        {
+            "from": 1185,
+            "to": 701,
+            "type": "Python Typed",
+            "inFile": 1180,
+            "line": 3,
+            "column": 4
+        }
+    ]
+}

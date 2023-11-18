@@ -1,0 +1,13 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_inherit/_classinherit/file0.py,-1
+1,Class,Base,0
+2,Function,__init__,1
+3,Class,Inherit,0
+4,Function,__init__,3
+5,Class,Base2,0
+6,Function,__init__,5
+7,Class,Inherit1,0
+8,Function,__init__,7
+9,Function,func,0
+10,Class,LocalInherit,9
+11,Class,LocalInherit2,9

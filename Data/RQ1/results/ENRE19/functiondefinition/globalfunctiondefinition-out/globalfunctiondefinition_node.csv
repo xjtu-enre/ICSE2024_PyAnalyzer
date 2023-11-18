@@ -1,0 +1,3 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_functiondefinition/_globalfunctiondefinition/test_global_function.py,-1
+1,Function,func1,0

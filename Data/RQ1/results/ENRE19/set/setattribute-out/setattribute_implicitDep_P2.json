@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "setattribute-out\\setattribute-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_set/_setattribute/test_set_attribute.py" ],
+  "cells" : [ ]
+}

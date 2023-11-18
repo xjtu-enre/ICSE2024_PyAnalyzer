@@ -1,0 +1,118 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func.inner",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func.inner.inner_inner",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func2",
+        "id": 17,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 20,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func2.x",
+        "id": 19,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 22,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition.func2.y",
+        "id": 26,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_define\\_localdefinition\\test_nested_define.py",
+        "startLine": 25,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Call",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Call",
+        "src": 3,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 3,
+        "dest": 4
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 17,
+        "dest": 19
+      },
+      {
+        "type": "Use",
+        "src": 17,
+        "dest": 26
+      }
+    ]
+  }
+]

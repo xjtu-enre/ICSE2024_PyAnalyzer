@@ -1,0 +1,222 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/call/firstorderclasscall.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_firstorderclasscall\\test_first_order_class_call.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "Base",
+            "qualified_name": "test_first_order_class_call.Base",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 11,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Variable Global",
+            "name": "base",
+            "qualified_name": "test_first_order_class_call.base",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 5,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Global",
+            "name": "cls",
+            "qualified_name": "test_first_order_class_call.cls",
+            "line": 12,
+            "start_column": 1,
+            "end_column": 4,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1184,
+            "type": "python Function",
+            "name": "create_class",
+            "qualified_name": "test_first_order_class_call.create_class",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 17,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Class",
+            "name": "Difficult",
+            "qualified_name": "test_first_order_class_call.create_class.Difficult",
+            "line": 7,
+            "start_column": 11,
+            "end_column": 20,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1186,
+            "type": "python Function Attribute",
+            "name": "test",
+            "qualified_name": "test_first_order_class_call.create_class.Difficult.test",
+            "line": 8,
+            "start_column": 13,
+            "end_column": 17,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1188,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_first_order_class_call.create_class.Difficult.test.self",
+            "line": 8,
+            "start_column": 18,
+            "end_column": 22,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1189,
+            "type": "python Variable Global",
+            "name": "difficult_obj",
+            "qualified_name": "test_first_order_class_call.difficult_obj",
+            "line": 14,
+            "start_column": 1,
+            "end_column": 14,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 4,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1184,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 12,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1189,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 14,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 4,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 4,
+            "column": 8
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 12,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1184,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 12,
+            "column": 7
+        },
+        {
+            "from": 1180,
+            "to": 1189,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 14,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Call",
+            "inFile": 1180,
+            "line": 14,
+            "column": 17
+        },
+        {
+            "from": 1180,
+            "to": 1189,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 16,
+            "column": 1
+        },
+        {
+            "from": 1184,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 1184,
+            "to": 1185,
+            "type": "Python Use",
+            "inFile": 1180,
+            "line": 10,
+            "column": 12
+        },
+        {
+            "from": 1185,
+            "to": 1186,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 8,
+            "column": 13
+        },
+        {
+            "from": 1186,
+            "to": 1188,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 8,
+            "column": 18
+        }
+    ]
+}

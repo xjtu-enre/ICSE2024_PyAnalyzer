@@ -1,0 +1,11 @@
+Id,type,label,Parent
+0,File,D:/test/data/tests/cases/_use/_usealias/module_a.py,-1
+1,Function,func,0
+2,Variable,x,0
+3,Class,ClassA,0
+4,Function,__init__,3
+5,File,D:/test/data/tests/cases/_use/_usealias/module_b.py,-1
+6,Function,foo,5
+7,Class,ClassB,5
+8,Variable,print(f",x_b",c",a),7
+9,Function,__init__,7

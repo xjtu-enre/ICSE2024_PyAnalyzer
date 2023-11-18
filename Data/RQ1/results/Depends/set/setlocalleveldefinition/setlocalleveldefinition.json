@@ -1,0 +1,58 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition\\test_set_local.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition\\test_set_local.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition.foo",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition\\test_set_local.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition.foo.x",
+        "id": 5,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setlocalleveldefinition\\test_set_local.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 5
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 5
+      }
+    ]
+  }
+]

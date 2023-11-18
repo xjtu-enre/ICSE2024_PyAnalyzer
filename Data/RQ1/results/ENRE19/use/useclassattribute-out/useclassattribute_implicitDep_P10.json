@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "useclassattribute-out\\useclassattribute-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_use/_useclassattribute/test_use_class_attr.py" ],
+  "cells" : [ ]
+}

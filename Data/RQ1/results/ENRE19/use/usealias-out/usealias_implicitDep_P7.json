@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "usealias-out\\usealias-sdsm",
+  "variables" : [ "D:/test/data/tests/cases/_use/_usealias/module_a.py", "D:/test/data/tests/cases/_use/_usealias/module_b.py" ],
+  "cells" : [ ]
+}

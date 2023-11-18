@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "parameterdefinition-out\\parameterdefinition-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_define/_parameterdefinition/test_parameter_define.py" ],
+  "cells" : [ ]
+}

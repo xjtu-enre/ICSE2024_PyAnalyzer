@@ -1,0 +1,175 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_abstract_function",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "abc",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "abc.ABC",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "abc.abstractmethod",
+            "type": "FUNCTION",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "test_abstract_function.Foo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 14,
+            "name": "unsolved symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 16,
+            "name": "test_abstract_function.Foo.foo1",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 19,
+            "name": "test_abstract_function.Foo.foo2",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 22,
+            "name": "test_abstract_function.Foo.foo3",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_functiondefinition/_abstractfunctiondefinition/test_abstract_function.py",
+            "line": 13,
+            "start_column": 5,
+            "end_column": 0
+        }
+    ],
+    "relations": [
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 11,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 11,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 11,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 11,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 11,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "abstractfunctiondefinition"
+}

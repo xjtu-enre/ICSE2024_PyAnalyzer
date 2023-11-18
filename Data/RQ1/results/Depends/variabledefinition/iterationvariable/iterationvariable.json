@@ -1,0 +1,63 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable\\test_iteration_variable.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable\\test_iteration_variable.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable.x",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable\\test_iteration_variable.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable.func",
+        "id": 17,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_variabledefinition\\_iterationvariable\\test_iteration_variable.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 17,
+        "dest": 3
+      }
+    ]
+  }
+]

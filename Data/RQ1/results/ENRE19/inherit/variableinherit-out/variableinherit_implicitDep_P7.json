@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "variableinherit-out\\variableinherit-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_inherit/_variableinherit/test_variable_inherit.py" ],
+  "cells" : [ ]
+}

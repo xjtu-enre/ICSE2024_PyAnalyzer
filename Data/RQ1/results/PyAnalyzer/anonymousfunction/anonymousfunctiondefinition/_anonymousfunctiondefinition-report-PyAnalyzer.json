@@ -1,0 +1,138 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous.(1)",
+            "category": "LambdaFunction",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def lambda(t: Any) -> Any"
+            ],
+            "exported": false,
+            "file": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous.(1).t",
+            "category": "LambdaParameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "exported": false,
+            "file": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_anonymousfunctiondefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_anonymousfunctiondefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

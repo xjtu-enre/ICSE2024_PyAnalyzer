@@ -1,0 +1,121 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/import/globalimport.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_globalimport\\file0.py"
+        },
+        {
+            "id": 1184,
+            "type": "File",
+            "name": "_globalimport\\file1.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "Clz",
+            "qualified_name": "file0.Clz",
+            "line": 6,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "file0.func",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Global",
+            "name": "var",
+            "qualified_name": "file0.var",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 4,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 7
+        },
+        {
+            "from": 1180,
+            "to": 1183,
+            "type": "Python Set",
+            "inFile": 1180,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1184,
+            "to": 1180,
+            "type": "Python Import From",
+            "inFile": 1184,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 1184,
+            "to": 1183,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 1184,
+            "to": 1182,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 1,
+            "column": 24
+        },
+        {
+            "from": 1184,
+            "to": 1181,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 1,
+            "column": 30
+        },
+        {
+            "from": 1184,
+            "to": 1180,
+            "type": "Python Import",
+            "inFile": 1184,
+            "line": 2,
+            "column": 8
+        }
+    ]
+}

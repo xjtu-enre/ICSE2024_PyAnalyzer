@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "firstclassclassinherit-out\\firstclassclassinherit-sdsm",
+  "variables" : [ "test_first_order_class_inherit.create_class", "test_first_order_class_inherit.SubClass.__init__" ],
+  "cells" : [ ]
+}

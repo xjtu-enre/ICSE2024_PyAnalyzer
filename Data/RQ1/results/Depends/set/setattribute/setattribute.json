@@ -1,0 +1,143 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Base",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Base.static_attr",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Base.__init__",
+        "id": 10,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Inherit",
+        "id": 19,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Inherit.__init__",
+        "id": 22,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setattribute.Inherit.use_attribute",
+        "id": 28,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setattribute\\test_set_attribute.py",
+        "startLine": 11,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Parameter",
+        "src": 10,
+        "dest": 11
+      },
+      {
+        "type": "Extend",
+        "src": 19,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 19,
+        "dest": 2
+      },
+      {
+        "type": "Parameter",
+        "src": 22,
+        "dest": 23
+      },
+      {
+        "type": "Call",
+        "src": 22,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 22,
+        "dest": 10
+      },
+      {
+        "type": "Parameter",
+        "src": 28,
+        "dest": 29
+      },
+      {
+        "type": "Use",
+        "src": 28,
+        "dest": 4
+      }
+    ]
+  }
+]

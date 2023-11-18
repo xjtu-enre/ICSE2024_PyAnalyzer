@@ -1,0 +1,6 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/module_a.py,3
+1,Package,package_b,3
+2,File,D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/package_b/__init__.py,1
+3,Package,package_a,-1
+4,File,D:/ENRE-other/enre-py/tests/cases/_contain/_regularpackage/package_a/__init__.py,3

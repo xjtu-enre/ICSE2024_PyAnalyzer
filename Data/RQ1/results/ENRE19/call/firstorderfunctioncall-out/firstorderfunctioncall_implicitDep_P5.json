@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "firstorderfunctioncall-out\\firstorderfunctioncall-sdsm",
+  "variables" : [ "D:/ENRE-other/enre-py/tests/cases/_call/_firstorderfunctioncall/test_first_order_func_call.py" ],
+  "cells" : [ ]
+}

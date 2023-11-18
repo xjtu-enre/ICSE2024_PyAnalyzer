@@ -1,0 +1,74 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setlocalleveldefinition/test_set_local.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_set_local",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_set_local.foo",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setlocalleveldefinition/test_set_local.py",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 9
+        },
+        {
+            "id": 7,
+            "name": "builtins",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "builtins.input",
+            "type": "FUNCTION",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 7,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "setlocalleveldefinition"
+}

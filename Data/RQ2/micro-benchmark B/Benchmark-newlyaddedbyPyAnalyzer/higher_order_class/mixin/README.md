@@ -1,0 +1,1 @@
+use function `mixin` to combine methods and attributes from two classes, `A` and `B`, into a new class which is later called, via a variable.

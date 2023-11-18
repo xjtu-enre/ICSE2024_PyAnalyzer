@@ -1,0 +1,402 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_annotation.test_annotation",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_annotation.test_annotation.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": 2,
+                "startColumn": 6,
+                "endColumn": 7
+            },
+            "signatures": [
+                "class ClassA"
+            ],
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_annotation.test_annotation.int_identity",
+            "category": "Function",
+            "location": {
+                "startLine": 4,
+                "endLine": 5,
+                "startColumn": 4,
+                "endColumn": 7
+            },
+            "signatures": [
+                "def int_identity(x: _annotation.test_annotation.ClassA) -> Any"
+            ],
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_annotation.test_annotation.int_identity.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 17,
+                "endColumn": 26
+            },
+            "type": "_annotation.test_annotation.ClassA",
+            "exported": false,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_annotation.test_annotation.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "type": "_annotation.test_annotation.ClassA",
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_annotation.test_annotation.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": 10,
+                "startColumn": 6,
+                "endColumn": 17
+            },
+            "signatures": [
+                "class ClassB"
+            ],
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_annotation.test_annotation.ClassB.field",
+            "category": "ClassAttribute",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 4,
+                "endColumn": 9
+            },
+            "type": "_annotation.test_annotation.ClassA",
+            "exported": true,
+            "file": "_annotation/test_annotation.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_annotation",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_annotation"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 2,
+            "dest": 8,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 8,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 8,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 8,
+            "dest": 4,
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 9,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 9,
+            "dest": 11,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 9,
+            "dest": 4,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 11,
+            "dest": 9,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": 4,
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

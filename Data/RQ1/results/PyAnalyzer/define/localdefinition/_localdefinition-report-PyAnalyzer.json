@@ -1,0 +1,578 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_localdefinition.test_nested_define",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_localdefinition.test_nested_define.func",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": 18,
+                "startColumn": 4,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def func() -> Any"
+            ],
+            "exported": true,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_localdefinition.test_nested_define.func2",
+            "category": "Function",
+            "location": {
+                "startLine": 20,
+                "endLine": 33,
+                "startColumn": 4,
+                "endColumn": 13
+            },
+            "signatures": [
+                "def func2() -> Any"
+            ],
+            "exported": true,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_localdefinition.test_nested_define.func.inner",
+            "category": "Function",
+            "location": {
+                "startLine": 5,
+                "endLine": 16,
+                "startColumn": 8,
+                "endColumn": 21
+            },
+            "signatures": [
+                "def inner() -> Any"
+            ],
+            "exported": true,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_localdefinition.test_nested_define.func.inner.inner_inner",
+            "category": "Function",
+            "location": {
+                "startLine": 8,
+                "endLine": 11,
+                "startColumn": 12,
+                "endColumn": 18
+            },
+            "signatures": [
+                "def inner_inner() -> Any"
+            ],
+            "exported": true,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_localdefinition.test_nested_define.func2.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 22,
+                "endLine": 22,
+                "startColumn": 4,
+                "endColumn": 5
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_localdefinition.test_nested_define.func2.y",
+            "category": "Variable",
+            "location": {
+                "startLine": 25,
+                "endLine": 25,
+                "startColumn": 4,
+                "endColumn": 5
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_localdefinition.test_nested_define.func2.t1",
+            "category": "Variable",
+            "location": {
+                "startLine": 28,
+                "endLine": 28,
+                "startColumn": 4,
+                "endColumn": 6
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 15,
+            "qualifiedName": "_localdefinition.test_nested_define.func2.t2",
+            "category": "Variable",
+            "location": {
+                "startLine": 28,
+                "endLine": 28,
+                "startColumn": 8,
+                "endColumn": 10
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": 17,
+            "qualifiedName": "_localdefinition.test_nested_define.func2.t3",
+            "category": "Variable",
+            "location": {
+                "startLine": 33,
+                "endLine": 33,
+                "startColumn": 5,
+                "endColumn": 7
+            },
+            "type": "int",
+            "exported": false,
+            "file": "_localdefinition/test_nested_define.py"
+        },
+        {
+            "id": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "qualifiedName": "builtins.int",
+            "category": "Class",
+            "location": {
+                "startLine": 762,
+                "endLine": 833,
+                "startColumn": 0,
+                "endColumn": 96
+            },
+            "signatures": [
+                "class int(typing.SupportsInt, typing.SupportsFloat, typing.SupportsAbs)"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_localdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_localdefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 20,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 18,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 22,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 9,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 22,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 9,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 22,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 25,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 5,
+            "dest": 11,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 25,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 11,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 25,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 25,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 5,
+            "dest": 13,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 13,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 5,
+            "dest": 15,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 15,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 28,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 33,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 5,
+            "dest": 17,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 33,
+                "startCol": 5
+            }
+        },
+        {
+            "src": 5,
+            "dest": 17,
+            "values": {
+                "kind": "Set"
+            },
+            "location": {
+                "startLine": 33,
+                "startCol": 5
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 7,
+            "dest": 6,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 4,
+            "values": {
+                "kind": "Call"
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 9,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 11,
+            "dest": "5e1ffb9adb5606e15d90d1182b2b9e88",
+            "values": {
+                "kind": "Annotate"
+            },
+            "location": {
+                "startLine": 25,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 13,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 15,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 17,
+            "dest": 5,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

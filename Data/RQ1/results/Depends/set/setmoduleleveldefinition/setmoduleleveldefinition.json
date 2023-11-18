@@ -1,0 +1,48 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setmoduleleveldefinition\\module_a.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setmoduleleveldefinition\\module_a.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setmoduleleveldefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_set\\_setmoduleleveldefinition.x",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_set\\_setmoduleleveldefinition\\module_a.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 3
+      }
+    ]
+  }
+]

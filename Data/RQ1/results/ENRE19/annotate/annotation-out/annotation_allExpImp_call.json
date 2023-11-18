@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "annotation-out\\annotation-sdsm",
+  "variables" : [ "test_annotation.ClassA.__init__", "test_annotation.int_identity", "test_annotation.ClassB.__init__" ],
+  "cells" : [ ]
+}

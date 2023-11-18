@@ -1,0 +1,301 @@
+{
+    "variables": [
+        {
+            "id": 2,
+            "qualifiedName": "_variableinherit.test_variable_inherit",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": 3,
+                "startColumn": 4,
+                "endColumn": 11
+            },
+            "signatures": [
+                "def mixin(c: Any, d: Any) -> Any"
+            ],
+            "exported": true,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.c",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.d",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 13,
+                "endColumn": 14
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.Mixed",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": 3,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "signatures": [
+                "class Mixed(Any, Any)"
+            ],
+            "exported": false,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.Mixed.(0)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 16,
+                "endColumn": 17
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.Mixed.(1)",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 19,
+                "endColumn": 20
+            },
+            "type": "Any",
+            "exported": false,
+            "file": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": "41d6333aa32a9f8cdccd648168c042f4",
+            "qualifiedName": "builtins.object",
+            "category": "Class",
+            "location": {
+                "startLine": 206,
+                "endLine": 243,
+                "startColumn": 0,
+                "endColumn": 38
+            },
+            "signatures": [
+                "class object"
+            ],
+            "exported": true,
+            "file": "C:/Users/yoghurts/Desktop/Research/PyAnalyzer/Codes/PyAnalyzer/feat-typeshed/PyAnalyzer/PyAnalyzer/stubs/builtins/builtins.pyi"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_variableinherit",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "exported": true,
+            "file": "_variableinherit"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 3,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 2,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 4,
+            "dest": 7,
+            "values": {
+                "kind": "Define"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 4,
+            "dest": 6,
+            "values": {
+                "kind": "Use"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 5,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 4,
+            "values": {
+                "kind": "ChildOf"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": "41d6333aa32a9f8cdccd648168c042f4",
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 7,
+            "dest": 5,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 7,
+            "dest": 6,
+            "values": {
+                "kind": "Inherit"
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain"
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        }
+    ]
+}

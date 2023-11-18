@@ -1,0 +1,77 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition.Out",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition.Out.Inner1",
+        "id": 3,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition.out_func",
+        "id": 8,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition.out_func.Inner2",
+        "id": 9,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition.out_func.Inner2.Inner3",
+        "id": 10,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_classdefinition\\_nestedclassdefinition\\file0.py",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

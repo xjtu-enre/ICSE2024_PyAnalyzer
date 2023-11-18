@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "globalimport-out\\globalimport-sdsm",
+  "variables" : [ "file0.func", "file0.Clz.__init__" ],
+  "cells" : [ ]
+}

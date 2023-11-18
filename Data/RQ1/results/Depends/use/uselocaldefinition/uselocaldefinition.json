@@ -1,0 +1,133 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func.inner",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func.inner.inner_inner",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func2",
+        "id": 25,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 13,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func2.x",
+        "id": 28,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 15,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition.func2.y",
+        "id": 35,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_uselocaldefinition\\test_local_use.py",
+        "startLine": 17,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 3,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 3,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 25,
+        "dest": 28
+      },
+      {
+        "type": "Use",
+        "src": 25,
+        "dest": 35
+      },
+      {
+        "type": "Use",
+        "src": 25,
+        "dest": 28
+      },
+      {
+        "type": "Use",
+        "src": 25,
+        "dest": 28
+      },
+      {
+        "type": "Use",
+        "src": 25,
+        "dest": 35
+      }
+    ]
+  }
+]

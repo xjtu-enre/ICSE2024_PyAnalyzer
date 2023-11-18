@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "variableinherit-out\\variableinherit-sdsm",
+  "variables" : [ "test_variable_inherit.mixin" ],
+  "cells" : [ ]
+}

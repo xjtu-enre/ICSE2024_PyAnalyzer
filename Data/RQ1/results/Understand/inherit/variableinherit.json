@@ -1,0 +1,86 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/inherit/variableinherit.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_variableinherit\\test_variable_inherit.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Function",
+            "name": "mixin",
+            "qualified_name": "test_variable_inherit.mixin",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Class",
+            "name": "Mixed",
+            "qualified_name": "test_variable_inherit.mixin.Mixed",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1185,
+            "type": "python Parameter",
+            "name": "c",
+            "qualified_name": "test_variable_inherit.mixin.c",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1186,
+            "type": "python Parameter",
+            "name": "d",
+            "qualified_name": "test_variable_inherit.mixin.d",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1181,
+            "to": 1185,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1181,
+            "to": 1186,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 2,
+            "column": 11
+        }
+    ]
+}

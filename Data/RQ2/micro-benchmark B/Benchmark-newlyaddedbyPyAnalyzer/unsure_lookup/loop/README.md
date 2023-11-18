@@ -1,0 +1,1 @@
+`foo` which is later called is either assigned as a function named `func` or defined in the loop

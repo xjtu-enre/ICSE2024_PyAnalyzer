@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "classmethodcall-out\\classmethodcall-sdsm",
+  "variables" : [ "test_method_call.ClassA.method", "test_method_call.ClassA.__init__", "test_method_call.ClassB.method", "test_method_call.ClassB.__init__" ],
+  "cells" : [ ]
+}

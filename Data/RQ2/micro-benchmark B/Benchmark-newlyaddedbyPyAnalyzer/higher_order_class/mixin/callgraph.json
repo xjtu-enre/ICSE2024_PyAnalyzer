@@ -1,0 +1,7 @@
+{
+    "main": [
+        "main.mixin",
+        "main.B.method_b",
+        "main.A.method_a"
+    ]
+}

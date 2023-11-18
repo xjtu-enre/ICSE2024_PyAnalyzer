@@ -1,0 +1,10 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_alias/_localimport/file0.py,-1
+1,Variable,var,0
+2,Function,func,0
+3,Class,Clz,0
+4,Function,__init__,3
+5,File,D:/ENRE-other/enre-py/tests/cases/_alias/_localimport/file1.py,-1
+6,Function,foo,5
+7,Class,Bar,5
+8,Function,__init__,7

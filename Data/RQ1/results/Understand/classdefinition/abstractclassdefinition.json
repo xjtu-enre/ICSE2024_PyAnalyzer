@@ -1,0 +1,394 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/classdefinition/abstractclassdefinition.und",
+    "entities": [
+        {
+            "id": 1577,
+            "type": "File",
+            "name": "_abstractclassdefinition\\test_abstract_class.py"
+        },
+        {
+            "id": 1578,
+            "type": "python Abstract Class",
+            "name": "A",
+            "qualified_name": "test_abstract_class.A",
+            "line": 4,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1579,
+            "type": "python Abstract Class",
+            "name": "B",
+            "qualified_name": "test_abstract_class.B",
+            "line": 8,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1580,
+            "type": "python Abstract Class",
+            "name": "Inner",
+            "qualified_name": "test_abstract_class.B.Inner",
+            "line": 9,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1581,
+            "type": "python Function Attribute Special",
+            "name": "__init__",
+            "qualified_name": "test_abstract_class.B.Inner.__init__",
+            "line": 13,
+            "start_column": 13,
+            "end_column": 21,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1582,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_abstract_class.B.Inner.__init__.self",
+            "line": 13,
+            "start_column": 22,
+            "end_column": 26,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1583,
+            "type": "python Variable Attribute",
+            "name": "__metaclass__",
+            "qualified_name": "test_abstract_class.B.Inner.__metaclass__",
+            "line": 10,
+            "start_column": 9,
+            "end_column": 22,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1585,
+            "type": "python Function Attribute Special",
+            "name": "__new__",
+            "qualified_name": "test_abstract_class.B.Inner.__new__",
+            "line": 18,
+            "start_column": 13,
+            "end_column": 20,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1586,
+            "type": "python Parameter",
+            "name": "cls",
+            "qualified_name": "test_abstract_class.B.Inner.__new__.cls",
+            "line": 18,
+            "start_column": 21,
+            "end_column": 24,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1587,
+            "type": "python Function Attribute",
+            "name": "func1",
+            "qualified_name": "test_abstract_class.B.Inner.func1",
+            "line": 23,
+            "start_column": 13,
+            "end_column": 18,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1589,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_abstract_class.B.Inner.func1.self",
+            "line": 23,
+            "start_column": 19,
+            "end_column": 23,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1590,
+            "type": "python Function Attribute",
+            "name": "func2",
+            "qualified_name": "test_abstract_class.B.Inner.func2",
+            "line": 26,
+            "start_column": 13,
+            "end_column": 18,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1592,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_abstract_class.B.Inner.func2.self",
+            "line": 26,
+            "start_column": 19,
+            "end_column": 23,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1593,
+            "type": "python Function Attribute",
+            "name": "func3",
+            "qualified_name": "test_abstract_class.B.func3",
+            "line": 30,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 1577
+        },
+        {
+            "id": 1595,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_abstract_class.B.func3.self",
+            "line": 30,
+            "start_column": 15,
+            "end_column": 19,
+            "belongs_to": 1577
+        }
+    ],
+    "relations": [
+        {
+            "from": 1577,
+            "to": 1523,
+            "type": "Python Import From",
+            "inFile": 1577,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 1577,
+            "to": 1565,
+            "type": "Python Import",
+            "inFile": 1577,
+            "line": 1,
+            "column": 17
+        },
+        {
+            "from": 1577,
+            "to": 1493,
+            "type": "Python Import",
+            "inFile": 1577,
+            "line": 1,
+            "column": 33
+        },
+        {
+            "from": 1577,
+            "to": 1524,
+            "type": "Python Import",
+            "inFile": 1577,
+            "line": 1,
+            "column": 42
+        },
+        {
+            "from": 1577,
+            "to": 1578,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 4,
+            "column": 7
+        },
+        {
+            "from": 1577,
+            "to": 1579,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 8,
+            "column": 7
+        },
+        {
+            "from": 1578,
+            "to": 1524,
+            "type": "Python Inherit",
+            "inFile": 1577,
+            "line": 4,
+            "column": 9
+        },
+        {
+            "from": 1579,
+            "to": 1580,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 9,
+            "column": 11
+        },
+        {
+            "from": 1579,
+            "to": 1593,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 30,
+            "column": 9
+        },
+        {
+            "from": 1579,
+            "to": 1565,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 29,
+            "column": 6
+        },
+        {
+            "from": 1580,
+            "to": 1583,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 10,
+            "column": 9
+        },
+        {
+            "from": 1580,
+            "to": 1581,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 13,
+            "column": 13
+        },
+        {
+            "from": 1580,
+            "to": 1585,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 18,
+            "column": 13
+        },
+        {
+            "from": 1580,
+            "to": 1587,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 23,
+            "column": 13
+        },
+        {
+            "from": 1580,
+            "to": 1590,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 26,
+            "column": 13
+        },
+        {
+            "from": 1580,
+            "to": 1583,
+            "type": "Python Set",
+            "inFile": 1577,
+            "line": 10,
+            "column": 9
+        },
+        {
+            "from": 1580,
+            "to": 1493,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 10,
+            "column": 25
+        },
+        {
+            "from": 1580,
+            "to": 1565,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 12,
+            "column": 10
+        },
+        {
+            "from": 1580,
+            "to": 1565,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 17,
+            "column": 10
+        },
+        {
+            "from": 1580,
+            "to": 1565,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 22,
+            "column": 10
+        },
+        {
+            "from": 1580,
+            "to": 126,
+            "type": "Python Couple",
+            "inFile": 1577,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 1581,
+            "to": 1582,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 13,
+            "column": 22
+        },
+        {
+            "from": 1581,
+            "to": 1582,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 14,
+            "column": 16
+        },
+        {
+            "from": 1581,
+            "to": 126,
+            "type": "Python Raise",
+            "inFile": 1577,
+            "line": 15,
+            "column": 23
+        },
+        {
+            "from": 1585,
+            "to": 1586,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 18,
+            "column": 21
+        },
+        {
+            "from": 1585,
+            "to": 1586,
+            "type": "Python Use",
+            "inFile": 1577,
+            "line": 19,
+            "column": 16
+        },
+        {
+            "from": 1585,
+            "to": 126,
+            "type": "Python Raise",
+            "inFile": 1577,
+            "line": 20,
+            "column": 23
+        },
+        {
+            "from": 1587,
+            "to": 1589,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 23,
+            "column": 19
+        },
+        {
+            "from": 1590,
+            "to": 1592,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 26,
+            "column": 19
+        },
+        {
+            "from": 1593,
+            "to": 1595,
+            "type": "Python Define",
+            "inFile": 1577,
+            "line": 30,
+            "column": 15
+        }
+    ]
+}

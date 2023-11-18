@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "moduleleveldefine-out\\moduleleveldefine-sdsm",
+  "variables" : [ "test_module_level_define.Base.__init__", "test_module_level_define.Inherit.__init__", "test_module_level_define.func1" ],
+  "cells" : [ ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit.create_class",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit.create_class.Difficult",
+        "id": 3,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit.cls",
+        "id": 10,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "startLine": 11,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit.SubClass",
+        "id": 17,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_inherit\\_firstclassclassinherit\\test_first_order_class_inherit.py",
+        "startLine": 14,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 10
+      },
+      {
+        "type": "Call",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Return",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 17,
+        "dest": 10
+      }
+    ]
+  }
+]

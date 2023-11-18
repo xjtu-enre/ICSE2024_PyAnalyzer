@@ -1,0 +1,118 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_a.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_a.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_b.py",
+        "id": 2,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias.foo",
+        "id": 15,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_b.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias.ClassB",
+        "id": 28,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_b.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias.func",
+        "id": 41,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_a.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias.x",
+        "id": 45,
+        "entityType": "Var",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_a.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_use\\_usealias.ClassA",
+        "id": 51,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_use\\_usealias\\module_a.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Import",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 45
+      },
+      {
+        "type": "Import",
+        "src": 2,
+        "dest": 0
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 0
+      },
+      {
+        "type": "Use",
+        "src": 15,
+        "dest": 0
+      },
+      {
+        "type": "Use",
+        "src": 28,
+        "dest": 0
+      }
+    ]
+  }
+]

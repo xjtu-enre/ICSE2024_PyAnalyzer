@@ -1,0 +1,113 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.ClassA",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.ClassA.method",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.ClassB",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.ClassB.method",
+        "id": 8,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.InheritClassA",
+        "id": 12,
+        "entityType": "Type",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition.InheritClassA.method",
+        "id": 15,
+        "entityType": "Function",
+        "entityFile": "D:\\test\\data\\tests\\cases\\_functiondefinition\\_classmethoddefinition\\test_method_definition.py",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Parameter",
+        "src": 3,
+        "dest": 4
+      },
+      {
+        "type": "Parameter",
+        "src": 8,
+        "dest": 9
+      },
+      {
+        "type": "Extend",
+        "src": 12,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 12,
+        "dest": 2
+      },
+      {
+        "type": "Parameter",
+        "src": 15,
+        "dest": 16
+      }
+    ]
+  }
+]

@@ -1,0 +1,274 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_set_attribute",
+            "type": "MODULE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "test_set_attribute.Base",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 16,
+            "start_column": 1,
+            "end_column": 4
+        },
+        {
+            "id": 5,
+            "name": "test_set_attribute.Base.static_attr",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 15
+        },
+        {
+            "id": 7,
+            "name": "test_set_attribute.Base.__init__",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 10,
+            "name": "test_set_attribute.Base.base_attribute",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 4,
+            "start_column": 14,
+            "end_column": 27
+        },
+        {
+            "id": 13,
+            "name": "test_set_attribute.Inherit",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 6,
+            "start_column": 1,
+            "end_column": 0
+        },
+        {
+            "id": 16,
+            "name": "test_set_attribute.Inherit.__init__",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 20,
+            "name": "builtins",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 21,
+            "name": "builtins.super",
+            "type": "CLASS",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 24,
+            "name": "builtins.super.__init__",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 28,
+            "name": "test_set_attribute.Inherit.use_attribute",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 11,
+            "start_column": 5,
+            "end_column": 0
+        },
+        {
+            "id": 31,
+            "name": "test_set_attribute.Inherit.base_attribute",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 12,
+            "start_column": 14,
+            "end_column": 27
+        },
+        {
+            "id": 34,
+            "name": "test_set_attribute.Inherit.static_attr",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute/test_set_attribute.py",
+            "line": 14,
+            "start_column": 14,
+            "end_column": 24
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 7,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 13,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "OVERRIDE",
+            "from": 16,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 16,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 21,
+            "to": 24,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 16,
+            "to": 24,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 16,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 28,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 31,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 28,
+            "to": 31,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 34,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 28,
+            "to": 34,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "setattribute"
+}

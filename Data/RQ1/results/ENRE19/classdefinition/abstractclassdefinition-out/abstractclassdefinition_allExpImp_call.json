@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "abstractclassdefinition-out\\abstractclassdefinition-sdsm",
+  "variables" : [ "test_abstract_class.A.__init__", "test_abstract_class.B.func3", "test_abstract_class.B.__init__" ],
+  "cells" : [ ]
+}

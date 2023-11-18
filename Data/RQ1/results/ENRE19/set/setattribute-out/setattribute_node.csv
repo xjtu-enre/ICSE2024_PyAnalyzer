@@ -1,0 +1,9 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_set/_setattribute/test_set_attribute.py,-1
+1,Class,Base,0
+2,Variable,static_attr,1
+3,Function,__init__,1
+5,Variable,base_attribute,1
+6,Class,Inherit,0
+7,Function,__init__,6
+9,Function,use_attribute,6

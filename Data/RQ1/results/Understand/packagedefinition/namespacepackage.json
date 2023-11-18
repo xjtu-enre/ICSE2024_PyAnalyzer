@@ -1,0 +1,13 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/packagedefinition/namespacepackage.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "package_a\\module_a.py"
+        }
+    ],
+    "relations": []
+}

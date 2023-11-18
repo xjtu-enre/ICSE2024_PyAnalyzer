@@ -1,0 +1,12 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_use/_useclassattribute/test_use_class_attr.py,-1
+1,Class,Base,0
+2,Variable,static_attr,1
+3,Function,__init__,1
+5,Variable,base_attribute,1
+6,Class,Inherit,0
+7,Function,__init__,6
+9,Function,use_attribute,6
+11,Class,Foo,0
+12,Variable,static_attr,11
+13,Function,__init__,11

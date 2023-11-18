@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <source_groups>
+        <source_group_e6d2b750-ead6-485d-9d45-6dcaef66833d>
+            <name>Python Source Group</name>
+            <python_environment_path>C:/Users/ThisRabbit/AppData/Local/Programs/Python/Python38/</python_environment_path>
+            <source_extensions>
+                <source_extension>.py</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>I:/Pro.soft/ENRE/ENRE-py/tests/cases/_set/_setattribute</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>Python Source Group</type>
+        </source_group_e6d2b750-ead6-485d-9d45-6dcaef66833d>
+    </source_groups>
+    <version>8</version>
+</config>

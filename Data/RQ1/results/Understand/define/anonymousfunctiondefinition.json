@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": "6.4.1143",
+    "db_name": "tests/und/define/anonymousfunctiondefinition.und",
+    "entities": [
+        {
+            "id": 1180,
+            "type": "File",
+            "name": "_anonymousfunctiondefinition\\test_define_anonymous.py"
+        },
+        {
+            "id": 1181,
+            "type": "python Class",
+            "name": "ClassA",
+            "qualified_name": "test_define_anonymous.ClassA",
+            "line": 6,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1180
+        },
+        {
+            "id": 1182,
+            "type": "python Function",
+            "name": "foo",
+            "qualified_name": "test_define_anonymous.foo",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1180
+        }
+    ],
+    "relations": [
+        {
+            "from": 1180,
+            "to": 1182,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 1180,
+            "to": 1181,
+            "type": "Python Define",
+            "inFile": 1180,
+            "line": 6,
+            "column": 7
+        }
+    ]
+}

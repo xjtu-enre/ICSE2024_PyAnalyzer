@@ -1,0 +1,4 @@
+Id,type,label,Parent
+0,File,D:/ENRE-other/enre-py/tests/cases/_set/_setlocalleveldefinition/test_set_local.py,-1
+1,Function,foo,0
+3,Variable,x,1

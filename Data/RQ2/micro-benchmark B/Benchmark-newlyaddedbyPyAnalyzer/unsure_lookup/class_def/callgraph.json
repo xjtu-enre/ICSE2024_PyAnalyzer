@@ -1,0 +1,12 @@
+{
+  "main": [
+    "main.my_is_ascii",
+    "main.is_ascii"
+  ],
+  "main.my_is_ascii": [
+    "builtins.ord"
+  ],
+  "main.is_ascii": [
+    "builtins.str.isascii"
+  ]
+}

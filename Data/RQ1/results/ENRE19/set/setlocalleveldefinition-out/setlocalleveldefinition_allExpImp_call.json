@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "setlocalleveldefinition-out\\setlocalleveldefinition-sdsm",
+  "variables" : [ "test_set_local.foo" ],
+  "cells" : [ ]
+}
