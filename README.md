@@ -1,7 +1,7 @@
 # 2024ICSE-PyAnalyzer
 This repository illustrates the tool, data, and scripts of our ICSE2024 under-reviewing work ——`PyAnalyzer: An Effective and Practical Approach for Dependency Extraction from Python Code`. 
 
-We opened all of the collected data of the investigated open-source subjects.  Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
+We make our tool's source code, datasets and all experimental results publicly available. Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
 
 This document introduces:
 
@@ -15,7 +15,8 @@ The whole directory goes like the following:
 ```
 ├─README.md 
 ├─Appendix.md
-│─Scripts
+├─Scripts
+├─SourceCode
 ├─Data
 │  ├─RQ1 
 │  │  ├─micro-benchmark A
@@ -30,7 +31,7 @@ The whole directory goes like the following:
 │  │     ├─PySonar2
 │  │     ├─Sourcetrail
 │  │     └─Understand 
-│  │─RQ2
+│  ├─RQ2
 │  │  ├─micro-benchmark B
 │  │  │  ├─Benchmark-collectedbyPyCG
 │  │  │  └─Benchmark-newlyaddedbyPyAnalyzer  
@@ -38,7 +39,7 @@ The whole directory goes like the following:
 │  │     ├─PyAnalyzer
 │  │     ├─PyCG
 │  │     └─Type4py
-│  │─RQ3
+│  ├─RQ3
 │  │  ├─macro-benchmark C
 │  │  │  ├─ground-truth-cgs
 │  │  │  └─projects
@@ -50,8 +51,8 @@ The whole directory goes like the following:
 │     ├─list
 │     │  └─python_project_list.csv
 │     └─results
-│        |─project_results_list.csv
-│        |─less.png
+│        ├─project_results_list.csv
+│        ├─less.png
 │        └─more.png
 |
 └─Tools                 
@@ -139,6 +140,10 @@ We want all newly generated files under these directories:
 - You should create a Sourcetrail project file first to make sure sourcetrail run normally.
 - You should place these executable programs under the folder `records/`
 - You should place the `python_project_list.csv` under the folder `lists/
+
+## SourceCode
+
+This directory contains our tool's source code.
 
 ## Data
 
