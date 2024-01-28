@@ -1,7 +1,9 @@
 # 2024ICSE-PyAnalyzer
-This repository illustrates the tool, data, and scripts of our ICSE2024 under-reviewing work ——`PyAnalyzer: An Effective and Practical Approach for Dependency Extraction from Python Code`. 
+This repository illustrates the tools, data, and scripts of **our work that has been accepted for ICSE2024**. The paper can be accessed via the following link: [**PyAnalyzer: An Effective and Practical Approach for Dependency Extraction from Python Code**](https://conf.researchr.org/details/icse-2024/icse-2024-research-track/233/PyAnalyzer-An-Effective-and-Practical-Approach-for-Dependency-Extraction-from-Python).
 
-We make our tool's source code, datasets and all experimental results publicly available. Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
+We make our tool's datasets and all experimental results publicly available. Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
+
+Our work will be integrated into **ENRE-py** in the future.
 
 This document introduces:
 
@@ -16,7 +18,6 @@ The whole directory goes like the following:
 ├─README.md 
 ├─Appendix.md
 ├─Scripts
-├─SourceCode
 ├─Data
 │  ├─RQ1 
 │  │  ├─micro-benchmark A
@@ -140,10 +141,6 @@ We want all newly generated files under these directories:
 - You should create a Sourcetrail project file first to make sure sourcetrail run normally.
 - You should place these executable programs under the folder `records/`
 - You should place the `python_project_list.csv` under the folder `lists/
-
-## SourceCode
-
-This directory contains our tool's source code.
 
 ## Data
 
